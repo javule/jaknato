@@ -1,2 +1,2 @@
 # Začínáme
-Tady vyrostou nějaké návody.
+Tady vyrostou nějaké návody na programování.
