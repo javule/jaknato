@@ -5,6 +5,7 @@
 * Podmínky
 * Opakování
 * Pohyb s postavou
+
 ---
 
 >Představte si, že chceme vytvořit program, který se hráče zeptá před hrou na jméno, to si uloží a na konci hry mu zobrazí jeho jeho jméno a počet získaných bodů.
