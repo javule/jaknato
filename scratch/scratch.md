@@ -1,4 +1,4 @@
- Programování pro děti v jazyce Scratch
+# Programování pro děti v jazyce Scratch
 
 ## Návody a nápady, jak naučit děti programovat ve Scratchi 
 
