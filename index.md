@@ -1,6 +1,3 @@
-# Začínáme
-Tady vyrostou nějaké návody na programování.
+#Programování pro děti
 
-## Test
-
-### Ahoj 2
+[Scratch](scratch/scratch.md)
