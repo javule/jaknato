@@ -1,11 +1,21 @@
 # Proměnné
+## Proměnné pro všechny postavy
 ---
+
 ### Předpokládané znalosti:
 * Orientace v Scratch editoru
 * Podmínky
 * Opakování
 * Pohyb s postavou
 
+---
+
+### Co se naučíme
+* vytvořit proměnnou
+* rozhodnout, jestli patří do postavy nebo do pozadí
+* zobrazit a skrýt proměnnou na scéně
+* nastavit proměnné hodnotu
+* naprogramujeme chytání hmyzíka
 ---
 
 >Představte si, že chceme vytvořit program, který se hráče zeptá před hrou na jméno, to si uloží a na konci hry mu zobrazí jeho jeho jméno a počet získaných bodů.
@@ -17,5 +27,5 @@ V programování říkáme takovému šuplíku **PROMĚNNÁ**, to, jak pojmenuje
 
 Ve Scratchi máme pro proměnné a práci s nimi oranžovou záložku ![](data.png)
 
-## Proměnné pro všechny postavy
+
 ## Proměnné jen pro tuto postavu
