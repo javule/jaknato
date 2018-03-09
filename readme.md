@@ -1,0 +1,1 @@
+Návody na programování s dětmi najdete na [jaknato.programovanihrou.cz](http://jaknato.programovanihrou.cz).
