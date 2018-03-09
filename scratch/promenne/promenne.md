@@ -17,29 +17,41 @@
 * naprogramujeme chytání hmyzíka
 
 ---
-
+## Co je proměnná
 Představte si, že chceme vytvořit program, který se hráče zeptá před hrou na jméno, to si uloží a na konci hry mu zobrazí jeho jeho jméno a počet získaných bodů.
 
 K ukládání informací, jako je jméno, počet bodů, poloha postavy na scéně, počet životů …, slouží **proměnné**. 
 Proměnnou si můžeme představit jako takový šuplík, který si označíme jménem. My si ho pojmenujeme `jmeno_hrace`.  Do šuplíku vložíme konkrétní jméno, třeba *Karel*. Až budeme jméno hráče potřebovat, vytáhneme ho ze šuplíku s názvem `jmeno_hrace`.
 
 V programování říkáme takovému šuplíku **PROMĚNNÁ**, to, jak pojmenujeme šuplík je **JMÉNO PROMĚNNÉ**, a to, co je uvnitř šuplíku, je **HODNOTA PROMĚNNÉ**.
+## Vytvoření proměnné
 
 Ve Scratchi máme pro proměnné a práci s nimi oranžovou záložku ![](data.png)
 
-### Nyní si vytvoříme naši proměnnou `jmeno_hrace`:
+ Nyní si vytvoříme naši proměnnou `jmeno_hrace`:
 
 ![](vytvareni_promenne_pozadi.png)
 
-### Společně s první proměnnou se nám vygenerují i příkazy, kterými lze proměnnou nastavovat:
+ Společně s první proměnnou se nám vygenerují i příkazy, kterými lze proměnnou nastavovat:
 ![](funce_pro_promennou.png)
 
-Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů `Ukaž proměnnou` a `Skryj proměnnou`.
+Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů `ukaž proměnnou` a `skryj proměnnou`.
+
+Vzhled proměnné na scéně se nastavuje dvojklikem na hodnotu proměnné:
+![](zobrazeni_promennych.png)
+
 >**Zkušenosti s výukou**:
 Doporučuji ujistit se, že děti vnímají rozdíl mezi `Nastav` a `Změň o`.
  Zároveň je vhodné upozornit, že pokud chceme zmenšovat hodnotu proměnné (např. ubírání životů), je třeba do argumentu funkce dát záporné číslo. 
 
+## Nastavení hodnoty proměnné
+Proměnné ve Scratchi nejsou typové, vkládat do nich můžeme jak text, tak čísla.
 
+```blocks
+po kliknutí na @greenFlag
+ptej se [Jak se jmenuješ] a čekej
+nastav [jmeno_hrace v] na(odpověď)
+```
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
 Rozlišujeme, zda proměnná, kterou chceme vytvořit, má smysl pro program jako celek, nebo zda se jedná o vlastnost nebo informaci týkající se pouze některé z postav.
