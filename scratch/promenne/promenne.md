@@ -33,11 +33,13 @@ Ve Scratchi máme pro proměnné a práci s nimi oranžovou záložku ![](data.p
 ![](vytvareni_promenne_pozadi.png)
 
  Společně s první proměnnou se nám vygenerují i příkazy, kterými lze proměnnou nastavovat:
+
 ![](funce_pro_promennou.png)
 
 Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů `ukaž proměnnou` a `skryj proměnnou`.
 
 Vzhled proměnné na scéně se nastavuje dvojklikem na hodnotu proměnné:
+
 ![](zobrazeni_promennych.png)
 
 >**Zkušenosti s výukou**:
@@ -52,6 +54,26 @@ po kliknutí na @greenFlag
 ptej se [Jak se jmenuješ] a čekej
 nastav [jmeno_hrace v] na(odpověď)
 ```
+> 
+
+<details>
+<summary>Typy na objevování</summary>
+1. Co sestane po spuštění? 
+
+```blocks
+po kliknutí na @greenFlag
+nastav [jmeno_hrace v] na [Karel]
+změň [jmeno_hrace v] o (1)
+```
+2. Co bude v proměnné `jmeno_hrace`?
+```blocks
+ptej se [Jak se jmenuješ?] a čekej
+ptej se [Kolik je ti roků?] a čekej
+nastav [jmeno_hrace v] na(odpověď)
+```
+<pre><code>PASTE LOGS HERE</code></pre>
+</details>
+
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
 Rozlišujeme, zda proměnná, kterou chceme vytvořit, má smysl pro program jako celek, nebo zda se jedná o vlastnost nebo informaci týkající se pouze některé z postav.
@@ -59,6 +81,7 @@ Pokud se rozhodneme, že proměnná nemá vztah jen k jedné z postav, můžeme 
 
 Pokud je možno proměnnou prohlásit za vlastnost postavy nebo je to pomocná proměnná, kterou využívá jen jedna postava, je vhodné před jejím vytvořením vybrat odpovídající postavu a zaškrtnout možnost `Jen pro tuto postavu`.
 Takovou proměnnou bude moci používat jen postava, ve které byla proměnná vytvořena. Ostatní ji nastavovat nemohou. Její hodnotu mohou získat pomocí funkce v záložce Vnímání, kde vyberou správnou postavu a k ní odpovídající název proměnné.
+
 ![](nacteni_hodnoty_lok_prom.png) 
 
 
