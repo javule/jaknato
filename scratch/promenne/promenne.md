@@ -54,25 +54,19 @@ po kliknutí na @greenFlag
 ptej se [Jak se jmenuješ] a čekej
 nastav [jmeno_hrace v] na(odpověď)
 ```
-> 
-
-<details>
-<summary>Typy na objevování</summary>
-1. Co sestane po spuštění? 
-
-<pre><code>blocks
-po kliknutí na @greenFlag
-nastav [jmeno_hrace v] na [Karel]
-změň [jmeno_hrace v] o (1)
-</code></pre>
-2. Co bude v proměnné `jmeno_hrace`?
-```blocks
-ptej se [Jak se jmenuješ?] a čekej
-ptej se [Kolik je ti roků?] a čekej
-nastav [jmeno_hrace v] na(odpověď)
-```
-<pre><code>PASTE LOGS HERE</code></pre>
-</details>
+> Typy na objevování
+>1. Co sestane po spuštění? 
+>```blocks
+>po kliknutí na @greenFlag
+>nastav [jmeno_hrace v] na [Karel]
+>změň [jmeno_hrace v] o (1)
+>```
+> 2. Co bude v proměnné `jmeno_hrace`?
+>```blocks
+>ptej se [Jak se jmenuješ?] a čekej
+>ptej se [Kolik je ti roků?] a čekej
+>nastav [jmeno_hrace v] na(odpověď)
+>```
 
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
