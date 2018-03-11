@@ -60,8 +60,7 @@ nastav [jmeno_hrace v] na(odpověď)
 <summary>Typy na objevování</summary>
 1. Co sestane po spuštění? 
 
-<pre><code>
-blocks
+<pre><code>blocks
 po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na [Karel]
 změň [jmeno_hrace v] o (1)
