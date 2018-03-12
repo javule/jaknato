@@ -76,7 +76,7 @@ Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné 
 
  
 > Tipy na objevování
->1. Co sestane po spuštění? 
+>1. Co se stane po spuštění? 
 >```blocks
 >po kliknutí na @greenFlag
 >nastav [jmeno_hrace v] na [Karel]
