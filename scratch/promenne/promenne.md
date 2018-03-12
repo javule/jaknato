@@ -59,11 +59,11 @@ nastav [osloveni v] na(odpověď)
 Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
 ![](jak_se_jmenujes_scena.png)
 Na toto chování (mimochodem, stejně funguje i seznam) je třeba si dát pozor a v případě potřeby proměnné po startu vyčistit:
- >```blocks
->po kliknutí na @greenFlag
->nastav [jmeno_hrace v] na []
->nastav [body] na (0)
->```
+```blocks
+po kliknutí na @greenFlag
+nastav [jmeno_hrace v] na []
+nastav [body] na (0)
+```
  <details>
  <summary><b>Zkušenosti s výukou</b></summary>
 <br/>
