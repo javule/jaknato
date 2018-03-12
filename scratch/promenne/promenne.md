@@ -37,14 +37,6 @@ Vzhled proměnné na scéně se nastavuje dvojklikem (nebo levým tlačítkem my
 
 ![](zobrazeni_promennych.png)
 
-> <details>
-> <summary><b>Zkušenosti s výukou</b></summary>
-><br/>
-> Doporučuji ujistit se, že děti vnímají rozdíl mezi 
-> <code>Nastav</code> a <code>Změň o</code>. 
-> Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
-> </details>
-
 ## Nastavení hodnoty proměnné
 Proměnné ve Scratchi nejsou typové, vkládat do nich můžeme jak text, tak čísla.
 
@@ -64,6 +56,16 @@ ptej se (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) a �
 nastav [osloveni v] na(odpověď)
 řekni(spoj([Ahoj ](osloveni))
 ```
+Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
+![](jak_se_jmenujes_scena.png)
+
+> <details>
+> <summary><b>Zkušenosti s výukou</b></summary>
+><br/>
+> Doporučuji ujistit se, že děti vnímají rozdíl mezi 
+> <code>Nastav</code> a <code>Změň o</code>. 
+> Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
+> </details>
 
 > Tipy na objevování
 >1. Co sestane po spuštění? 
