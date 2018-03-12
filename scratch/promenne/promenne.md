@@ -58,14 +58,18 @@ nastav [osloveni v] na(odpověď)
 ```
 Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
 ![](jak_se_jmenujes_scena.png)
-
-> <details>
-> <summary><b>Zkušenosti s výukou</b></summary>
-><br/>
-> Doporučuji ujistit se, že děti vnímají rozdíl mezi 
-> <code>Nastav</code> a <code>Změň o</code>. 
-> Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
-> </details>
+Na toto chování (mimochodem, stejně funguje i seznam) je třeba si dát pozor a v případě potřeby proměnné po startu vyčistit:
+ >```blocks
+>po kliknutí na @greenFlag
+>nastav [jmeno_hrace v] na []
+>nastav [body] na (0)
+>```
+ <details>
+ <summary><b>Zkušenosti s výukou</b></summary>
+<br/>
+Doporučuji ujistit se, že děti vnímají rozdíl mezi  <code>nastav</code> a <code>změň o</code>. 
+Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
+ </details>
 
 > Tipy na objevování
 >1. Co sestane po spuštění? 
