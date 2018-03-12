@@ -5,8 +5,13 @@
 /* Google fonty: http://jecas.cz/ceska-pisma */
 @import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Open+Sans&subset=latin,latin-ext);
 h1,h2,h3,h4,h5 {
-    font-family: "Patrick Hand SC", "Open Sans";
+    /*font-family: "Patrick Hand SC", "Open Sans";*/
+    font-family: "Open Sans";
 }
 #main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h5 {
-    font-family: "Patrick Hand SC", "Open Sans";
+    /*font-family: "Patrick Hand SC", "Open Sans";*/
+    font-family: "Open Sans";
+}
+.page-header { 
+    padding: 1rem, 6rem; 
 }
