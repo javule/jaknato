@@ -65,9 +65,9 @@ po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na []
 nastav [body] na (0)
 ```
-<p>You can quote {% highlight blocks %}po kliknutí na @greenFlag
-{% endhighlight %}
-</p>
+You can quote {% ihighlight blocks %}po kliknutí na @greenFlag
+{% endhighlight %} Blabla bla.
+
 
 <details><summary>Zkušenosti s výukou</summary><p markdown="1">
 Doporučuji ujistit se, že děti vnímají rozdíl mezi  <code class="language-blocks">nastav [ v] na []</code> a <code class="language-blocks">změň [ v] o ()</code>. 
