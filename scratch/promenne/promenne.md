@@ -38,8 +38,7 @@ Vzhled proměnné na scéně se nastavuje dvojklikem (nebo levým tlačítkem my
 ><br/>
 > Doporučuji ujistit se, že děti vnímají rozdíl mezi 
 > <code>Nastav</code> a <code>Změň o</code>. 
-> Zároveň je vhodné upozornit, že pokud chceme zmenšovat hodnotu proměnné (např. ubírání životů), je třeba do argumentu funkce dát záporné číslo. 
-
+> Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
 > </details>
 
 ## Nastavení hodnoty proměnné
