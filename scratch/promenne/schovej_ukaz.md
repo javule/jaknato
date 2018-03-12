@@ -1,6 +1,6 @@
 # Ukázka schovávání kousku stránky
 
-<details><summary>Tipy pro další výuku</summary><p markdown="1">
+<details markdown="1"><summary>Tipy pro další výuku</summary><p>
 
 1. Co se stane po spuštění? 
 
