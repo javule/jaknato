@@ -63,10 +63,10 @@ Na toto chování (mimochodem, stejně funguje i seznam) je třeba si dát pozor
 ```blocks
 po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na []
-nastav [body] na (0)
+nastav [body v] na (0)
 ```
 You can quote3
-<code class="language-blocks" data-lang="blocks">po kliknutí na @greenFlag</code>
+<code class="language-blocks">po kliknutí na @greenFlag</code>
 Blabla bla.
 
 <details><summary>Zkušenosti s výukou</summary><p markdown="1">
