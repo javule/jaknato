@@ -65,7 +65,7 @@ po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na []
 nastav [body] na (0)
 ```
-You can quote2
+You can quote3
 <code class="language-blocks" data-lang="blocks">po kliknutí na @greenFlag</code>
 Blabla bla.
 
