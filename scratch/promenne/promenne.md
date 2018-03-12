@@ -52,9 +52,9 @@ nastav [jmeno_hrace v] na(odpověď)
 po kliknutí na @greenFlag
 ptej se [Jak se jmenuješ] a čekej
 nastav [jmeno_hrace v] na(odpověď)
-ptej se (spoj(jmeno_hrace )a[, to je pěkné jméno. A jak ti mám říkat?]) a čekej
+ptej se (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) a čekej
 nastav [osloveni v] na(odpověď)
-řekni(spoj([Ahoj ]a(osloveni))
+řekni(spoj[Ahoj ](osloveni))
 ```
 Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
 ![](jak_se_jmenujes_scena.png)
@@ -65,9 +65,9 @@ po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na []
 nastav [body] na (0)
 ```
-You can quote2 {% highlight blocks %}po kliknutí na @greenFlag
-{% endhighlight %} Blabla bla.
-
+You can quote2
+<code class="language-blocks" data-lang="blocks">po kliknutí na @greenFlag</code>
+Blabla bla.
 
 <details><summary>Zkušenosti s výukou</summary><p markdown="1">
 Doporučuji ujistit se, že děti vnímají rozdíl mezi  <code class="language-blocks">nastav [ v] na []</code> a <code class="language-blocks">změň [ v] o ()</code>. 
