@@ -1,13 +1,15 @@
 # Proměnné
----
+
+***
+
 ### Co se naučíme:
 * co je proměnná
 * vytvořit proměnnou
 * zobrazit a skrýt proměnnou na scéně
 * nastavit proměnné hodnotu
-* rozlišovat mezi `proměnnou pro všchny postavy` a `jen pro tuto postavu`
+* rozlišovat mezi `proměnnou pro všechny postavy` a `jen pro tuto postavu`
 
----
+***
 
 ## Co je proměnná
 Představte si, že chceme vytvořit program, který se hráče zeptá před hrou na jméno, to si uloží a na konci hry mu zobrazí jeho jeho jméno a počet získaných bodů.
