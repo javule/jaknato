@@ -65,7 +65,7 @@ po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na []
 nastav [body] na (0)
 ```
-You can quote {% ihighlight blocks %}po kliknutí na @greenFlag
+You can quote2 {% ihighlight blocks %}po kliknutí na @greenFlag
 {% endhighlight %} Blabla bla.
 
 
