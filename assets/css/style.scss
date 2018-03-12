@@ -16,5 +16,15 @@ h1,h2,h3,h4,h5 {
     padding: 1rem 6rem; 
 }
 summary {
-    background-color: #D1E8FF
+    background-color: #D1E8FF;
+    font-weight: bold;
+    padding-left: 0.2 em;
+    padding-right: 0.2 em;
 }
+summary {
+    display: list-item;
+    list-style: disclosure-closed;
+  } 
+  details[open] > summary {
+    list-style: disclosure-open;
+  }
