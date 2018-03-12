@@ -1,21 +1,11 @@
 # Proměnné
 
-### Předpokládané znalosti:
-* Orientace v Scratch editoru
-* Podmínky
-* Opakování
-* Pohyb s postavou
-
----
-
 ### Co se naučíme:
 * co je proměnná
 * vytvořit proměnnou
 * zobrazit a skrýt proměnnou na scéně
 * nastavit proměnné hodnotu
 * rozlišovat mezi `proměnnou pro všchny postavy` a `jen pro tuto postavu`
-* naprogramujeme chytání hmyzíka
-
 ---
 ## Co je proměnná
 Představte si, že chceme vytvořit program, který se hráče zeptá před hrou na jméno, to si uloží a na konci hry mu zobrazí jeho jeho jméno a počet získaných bodů.
@@ -36,25 +26,43 @@ Ve Scratchi máme pro proměnné a práci s nimi oranžovou záložku ![](data.p
 
 ![](funce_pro_promennou.png)
 
+## Vzhled proměnných
 Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů `ukaž proměnnou` a `skryj proměnnou`.
 
-Vzhled proměnné na scéně se nastavuje dvojklikem na hodnotu proměnné:
+Vzhled proměnné na scéně se nastavuje dvojklikem (nebo levým tlačítkem myši) na hodnotu proměnné na scéně:
 
 ![](zobrazeni_promennych.png)
 
->**Zkušenosti s výukou**:
-Doporučuji ujistit se, že děti vnímají rozdíl mezi `Nastav` a `Změň o`.
- Zároveň je vhodné upozornit, že pokud chceme zmenšovat hodnotu proměnné (např. ubírání životů), je třeba do argumentu funkce dát záporné číslo. 
+> <details>
+> <summary><b>Zkušenosti s výukou</b></summary>
+><br/>
+> Doporučuji ujistit se, že děti vnímají rozdíl mezi 
+> <code>Nastav</code> a <code>Změň o</code>. 
+> Zároveň je vhodné upozornit, že pokud chceme zmenšovat hodnotu proměnné (např. ubírání životů), je třeba do argumentu funkce dát záporné číslo. 
+
+> </details>
 
 ## Nastavení hodnoty proměnné
 Proměnné ve Scratchi nejsou typové, vkládat do nich můžeme jak text, tak čísla.
+
+Nastavení hodnoty proměnné a její čtení:
+```blocks
+po kliknutí na @greenFlag
+ptej se [Jak se jmenuješ] a čekej
+nastav [jmeno_hrace v] na(odpověď)
+řekni(jmeno_hrace)
+```
 
 ```blocks
 po kliknutí na @greenFlag
 ptej se [Jak se jmenuješ] a čekej
 nastav [jmeno_hrace v] na(odpověď)
+ptej se (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) a čekej
+nastav [osloveni v] na(odpověď)
+řekni(spoj([Ahoj ](osloveni))
 ```
-> Typy na objevování
+
+> Tipy na objevování
 >1. Co sestane po spuštění? 
 >```blocks
 >po kliknutí na @greenFlag
@@ -63,6 +71,7 @@ nastav [jmeno_hrace v] na(odpověď)
 >```
 > 2. Co bude v proměnné `jmeno_hrace`?
 >```blocks
+>po kliknutí na @greenFlag
 >ptej se [Jak se jmenuješ?] a čekej
 >ptej se [Kolik je ti roků?] a čekej
 >nastav [jmeno_hrace v] na(odpověď)
