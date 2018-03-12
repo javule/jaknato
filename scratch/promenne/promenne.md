@@ -1,12 +1,16 @@
 # Proměnné
 
+***
+
 ### Co se naučíme:
 * co je proměnná
 * vytvořit proměnnou
 * zobrazit a skrýt proměnnou na scéně
 * nastavit proměnné hodnotu
-* rozlišovat mezi `proměnnou pro všchny postavy` a `jen pro tuto postavu`
----
+* rozlišovat mezi `proměnnou pro všechny postavy` a `jen pro tuto postavu`
+
+***
+
 ## Co je proměnná
 Představte si, že chceme vytvořit program, který se hráče zeptá před hrou na jméno, to si uloží a na konci hry mu zobrazí jeho jeho jméno a počet získaných bodů.
 
@@ -38,8 +42,7 @@ Vzhled proměnné na scéně se nastavuje dvojklikem (nebo levým tlačítkem my
 ><br/>
 > Doporučuji ujistit se, že děti vnímají rozdíl mezi 
 > <code>Nastav</code> a <code>Změň o</code>. 
-> Zároveň je vhodné upozornit, že pokud chceme zmenšovat hodnotu proměnné (např. ubírání životů), je třeba do argumentu funkce dát záporné číslo. 
-
+> Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
 > </details>
 
 ## Nastavení hodnoty proměnné
