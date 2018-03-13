@@ -92,18 +92,19 @@ nastav [body v] na (0)
 >>nastav [jmeno_hrace v] na(odpověď)
 >>```
 >><details><summary>Řešení</summary><p markdown="1">
->>V proměnné <sb>jmeno_hrace</sb> bude jeho věk
+>>V proměnné <sb>(jmeno_hrace)</sb> bude jeho věk
 >></details>
 >
 >> Uměli byste prohodit hodnoty dvou proměnných? 
->><details><summary>Řešení</summary><p markdown="1">
->>Měníme hodnotu proměnné <sb>(a)</sb> a <sb>(b)</sb> za pomoci proměnné  <sb>(pom)</sb>.
 >>
->>```blocks
+>><details><summary>Řešení</summary><p markdown="1">
+>>Měníme hodnotu proměnné <sb>(a)</sb> a <sb>(b)</sb> za pomoci proměnné <sb>(pom)</sb>.
+>>
+>><code class="language-blocks">
 >>nastav [pom v] na(a)
 >>nastav [a v] na(b)
 >>nastav [b v] na(pom)
->>```
+>></code>
 >></details>  
 ><br/>
 >   
