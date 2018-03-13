@@ -82,7 +82,7 @@ nastav [body v] na (0)
 >>```  
 >><details><summary>Řešení</summary><p markdown="1">
 >>Nastane chyba, v proměnné se objeví "NaN" (not a number)
->></details>
+>></p></details>
 >
 >> Co bude v proměnné <sb>(jmeno_hrace)</sb>?
 >>```blocks
@@ -93,7 +93,7 @@ nastav [body v] na (0)
 >>```
 >><details><summary>Řešení</summary><p markdown="1">
 >>V proměnné <sb>(jmeno_hrace)</sb> bude jeho věk
->></details>
+>></p></details>
 >
 >> Uměli byste prohodit hodnoty dvou proměnných? 
 >>
@@ -105,6 +105,7 @@ nastav [body v] na (0)
 >>nastav [a v] na(b)
 >>nastav [b v] na(pom)
 >></code>
+>></p>
 >></details>  
 ><br/>
 >   
