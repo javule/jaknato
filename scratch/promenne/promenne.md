@@ -28,16 +28,18 @@ Ve Scratchi máme pro proměnné a práci s nimi oranžovou záložku ![](data.p
 
  Společně s první proměnnou se nám vygenerují i příkazy, kterými lze proměnnou nastavovat:
 
-![](funce_pro_promennou.png)
+![](prikazy.png)
 
 ## Vzhled proměnných
 Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů <sb>ukaž proměnnou [ v]</sb> a <sb>skryj proměnnou[ v]</sb>.
 
-Vzhled proměnné na scéně se nastavuje dvojklikem (nebo pravým tlačítkem myši) na hodnotu proměnné na scéně:
+Proměnnou lze dodatečně přejmenovat. Jméno se změní na všech místech, kde je proměnná použita.
 
 ![](zobrazeni_promennych.png)
 
-Proměnnou lze dodatečně přejmenovat. Nové jméno se nastaví všude, kde je proměnná použita.
+Vzhled proměnné na scéně se nastavuje dvojklikem (nebo pravým tlačítkem myši) na hodnotu proměnné **na scéně**:
+![](vzhled_promenne.png)
+
 
 ## Nastavení hodnoty proměnné
 Proměnné ve Scratchi nejsou typové, vkládat do nich můžeme jak text, tak čísla.
@@ -49,6 +51,7 @@ ptej se [Jak se jmenuješ] a čekej
 nastav [jmeno_hrace v] na(odpověď)
 řekni(jmeno_hrace)
 ```
+nebo např.:
 
 ```blocks
 po kliknutí na @greenFlag
@@ -59,6 +62,7 @@ nastav [osloveni v] na(odpověď)
 řekni(spoj[Ahoj ](osloveni))
 ```
 Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
+
 ![](jak_se_jmenujes_scena.png)
 
 Na toto chování (mimochodem, stejně funguje i seznam) je třeba si dát pozor a v případě potřeby proměnné po startu vyčistit:
@@ -67,30 +71,31 @@ po kliknutí na @greenFlag
 nastav [jmeno_hrace v] na []
 nastav [body v] na (0)
 ```
-You can quote3
-<code class="language-blocks">po kliknutí na @greenFlag</code>
-Blabla bla.
-
-<details><summary>Zkušenosti s výukou</summary><p markdown="1">
-Doporučuji ujistit se, že děti vnímají rozdíl mezi  <code class="language-blocks">nastav [ v] na []</code> a <code class="language-blocks">změň [ v] o ()</code>. 
-Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
-</p></details>
-
  
-> Tipy na objevování
+> ### Tipy na objevování:
 >1. Co se stane po spuštění? 
 >```blocks
 >po kliknutí na @greenFlag
 >nastav [jmeno_hrace v] na [Karel]
 >změň [jmeno_hrace v] o (1)
 >```
-> 2. Co bude v proměnné `jmeno_hrace`?
+> 2. Co bude v proměnné <sb>(jmeno_hrace)</sb>?
 >```blocks
 >po kliknutí na @greenFlag
 >ptej se [Jak se jmenuješ?] a čekej
 >ptej se [Kolik je ti roků?] a čekej
 >nastav [jmeno_hrace v] na(odpověď)
 >```
+> 3. Uměli byste prohodit hodnoty dvou proměnných?   
+><br/>
+>   
+
+
+
+<details><summary>Zkušenosti s výukou</summary><p markdown="1">
+Doporučuji ujistit se, že děti vnímají rozdíl mezi  <code class="language-blocks">nastav [ v] na []</code> a <code class="language-blocks">změň [ v] o ()</code>. 
+Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
+</p></details>
 
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
