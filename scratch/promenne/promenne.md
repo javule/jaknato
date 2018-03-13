@@ -38,6 +38,7 @@ Proměnnou lze dodatečně přejmenovat. Jméno se změní na všech místech, k
 ![](zobrazeni_promennych.png)
 
 Vzhled proměnné na scéně se nastavuje dvojklikem (nebo pravým tlačítkem myši) na hodnotu proměnné **na scéně**:
+
 ![](vzhled_promenne.png)
 
 
@@ -73,29 +74,46 @@ nastav [body v] na (0)
 ```
  
 > ### Tipy na objevování:
->1. Co se stane po spuštění? 
->```blocks
->po kliknutí na @greenFlag
->nastav [jmeno_hrace v] na [Karel]
->změň [jmeno_hrace v] o (1)
->```
-> 2. Co bude v proměnné <sb>(jmeno_hrace)</sb>?
->```blocks
->po kliknutí na @greenFlag
->ptej se [Jak se jmenuješ?] a čekej
->ptej se [Kolik je ti roků?] a čekej
->nastav [jmeno_hrace v] na(odpověď)
->```
-> 3. Uměli byste prohodit hodnoty dvou proměnných?   
+>> Co se stane po spuštění? 
+>>```blocks
+>>po kliknutí na @greenFlag
+>>nastav [jmeno_hrace v] na [Karel]
+>>změň [jmeno_hrace v] o (1)
+>>```  
+>><details><summary>Řešení</summary><p markdown="1">
+>>Nastane chyba, v proměnné se objeví "NaN" (not a number)
+>></details>
+>
+>> Co bude v proměnné <sb>(jmeno_hrace)</sb>?
+>>```blocks
+>>po kliknutí na @greenFlag
+>>ptej se [Jak se jmenuješ?] a čekej
+>>ptej se [Kolik je ti roků?] a čekej
+>>nastav [jmeno_hrace v] na(odpověď)
+>>```
+>><details><summary>Řešení</summary><p markdown="1">
+>>V proměnné <sb>jmeno_hrace</sb> bude jeho věk
+>></details>
+>
+>> Uměli byste prohodit hodnoty dvou proměnných? 
+>><details><summary>Řešení</summary><p markdown="1">
+>>Měníme hodnotu proměnné <sb>(a)</sb> a <sb>(b)</sb> za pomoci proměnné  <sb>(pom)</sb>.
+>>
+>>```blocks
+>>nastav [pom v] na(a)
+>>nastav [a v] na(b)
+>>nastav [b v] na(pom)
+>>```
+>></details>  
 ><br/>
 >   
 
 
+## Zkušenosti s výukou
+Doporučuji ujistit se, že děti vnímají rozdíl mezi  <sb>nastav [ v] na []</sb> a <sb>změň [ v] o ()</sb>. 
 
-<details><summary>Zkušenosti s výukou</summary><p markdown="1">
-Doporučuji ujistit se, že děti vnímají rozdíl mezi  <code class="language-blocks">nastav [ v] na []</code> a <code class="language-blocks">změň [ v] o ()</code>. 
-Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. 
-</p></details>
+Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. <sb>změň[pocet_zivotu] o (-1)</sb>
+
 
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
