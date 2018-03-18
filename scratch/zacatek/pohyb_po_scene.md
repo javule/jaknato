@@ -26,7 +26,7 @@ Postavy, které chceme v našem programu "zapojit do hry", musíme nejprve přid
 
 >**:bulb: Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**
 
-####Program
+#### Program
 
 Každé postavě zvlášť (i pozadí) lze nařídit, co bude na scéně po spuštění programu dělat. Aby se postava chovala tak, jak chceme, musíme jí to říct jazykem, kterému rozumí. Všechny příkazy, které postava zná, najdeme uprostřed Scratch editoru, roztříděné do složek podle oblastí, kterých se týkají.
 
