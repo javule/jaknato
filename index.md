@@ -1,3 +1,5 @@
 # Programování pro děti
 
-[Scratch](scratch/scratch.md)
+* Programování pro děti v jazyce Scratch
+* [Úlohy s roboty Edison](edison/index.md)
+* Úlohy s Micro:bity

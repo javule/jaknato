@@ -1,0 +1,11 @@
+Receiving values...
+HEX: 0x56730CBA	Decoded to: 255
+Received code 0xFF
+HEX: 0x0759C8EC	Decoded to: 0
+HEX: 0x60B19DA0	Decoded to: 56
+Decoded INT value: 56
+HEX: 0x56730CBA	Decoded to: 255
+Received code 0xFF
+HEX: 0xA7C52B4B	Decoded to: 1
+HEX: 0xCB21382E	Decoded to: 131
+Decoded INT value: 386
