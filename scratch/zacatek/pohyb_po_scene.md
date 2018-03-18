@@ -28,7 +28,8 @@ Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knih
 Postavy, které chceme v našem programu "zapojit do hry", musíme nejprve přidat do *ohrádky pro postavy*, která se nachází pod scénou. Postavu si opět můžeme vybrat už hotovou z knihovny, nebo si namalovat vlastní.
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**</div>
+:bulb: **Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**
+</div>
 
 #### Scénáře
 
