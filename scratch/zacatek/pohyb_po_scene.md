@@ -20,8 +20,9 @@ Vlevo nahoře je velká bílá plocha, které říkáme *scéna*. Je to prostor,
 Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát  do pozadí obrázek uložený v počítači, nebo se vyfotit na pozadí kamerou. Nové pozadí se přidává těmito ikonami ![](volba_pozadi.png)
 
 
-<div class="poznamka">
-Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy</div>
+<div class="poznamka"markdown="1">
+:bulb: **Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy**
+</div>
 
 
 ### Postavy
@@ -39,13 +40,15 @@ Každé postavě zvlášť (i pozadí) lze nařídit, co bude na scéně po spu�
 
  **Vybereme postavu, kterou chceme programovat**, vybereme záložku Scénáře.
 
-<div class="poznamka" markdown="1"><b>Poznámka:</b> **Vybereme postavu, kterou chceme programovat** budu stále dokola psát tučným písmem. Jedna z nejčastějších začátečnických chyb je začít psát program do jiné postavy. A až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.</div>
+<div class="poznamka" markdown="1"><b>Poznámka:</b> **Vybereme postavu, kterou chceme programovat** budu stále dokola psát tučným písmem. Jedna z nejčastějších začátečnických chyb je začít psát program do jiné postavy. A až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.
+</div>
 
 Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle. 
 
  Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
 
-<div class="poznamka" markdown="1"><b>Poznámka:</b> Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.</div>
+<div class="poznamka" markdown="1"><b>Poznámka:</b> Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.
+</div>
 
 V této lekci nám budou stačit příkazy ze složky *Vzhled* a *Události*
 
