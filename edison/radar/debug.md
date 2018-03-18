@@ -42,7 +42,7 @@ Takový radar můžeme postavit relativně snadno např. s nějakým mikrokontro
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
 ### Zapojení
-Zapojení je velmi jednoduché. Nicméně pozor na to, aby nožičky infra sensoru byly zapojeny správně, jelikož např. při přehození polarity napájení sensor smrdí a nefunguje ;-).
+Zapojení je velmi jednoduché. Nicméně pozor na to, aby nožičky infra sensoru byly zapojeny správně, jelikož např. při přehození polarity napájení sensor smrdí a nefunguje :smirk:.
 
 ![](P1000600.JPG)
 ![](P1000599_popis.jpg)
