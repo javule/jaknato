@@ -1,4 +1,4 @@
-[← Zpět na rozcestník návodů pro roboty](index.md)
+[← Zpět na rozcestník návodů pro roboty](../index.md)
 
 # Jak si vypsat hodnotu, kterou ví jen robot Edison (pokus o debugging)
 
