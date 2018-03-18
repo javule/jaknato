@@ -41,7 +41,6 @@ Vzhled proměnné na scéně se nastavuje dvojklikem (nebo pravým tlačítkem m
 
 ![](vzhled_promenne.png)
 
-
 ## Nastavení hodnoty proměnné
 Proměnné ve Scratchi nejsou typové, vkládat do nich můžeme jak text, tak čísla.
 
@@ -56,7 +55,7 @@ nebo např.:
 
 ```blocks
 po kliknutí na @greenFlag
-ptej se [Jak se jmenuješ] a čekej
+ptej se [Jak se jmenuješ?] a čekej
 nastav [jmeno_hrace v] na(odpověď)
 ptej se (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) a čekej
 nastav [osloveni v] na(odpověď)
@@ -74,7 +73,7 @@ nastav [body v] na (0)
 ```
  
 > ### Tipy na objevování:
->> Co se stane po spuštění? 
+>> **Co se stane po spuštění?**
 >>```blocks
 >>po kliknutí na @greenFlag
 >>nastav [jmeno_hrace v] na [Karel]
@@ -84,7 +83,7 @@ nastav [body v] na (0)
 >>Nastane chyba, v proměnné se objeví "NaN" (not a number)
 >></p></details>
 >
->> Co bude v proměnné <sb>(jmeno_hrace)</sb>?
+>> **Co bude v proměnné <sb>(jmeno_hrace)</sb>?**
 >>```blocks
 >>po kliknutí na @greenFlag
 >>ptej se [Jak se jmenuješ?] a čekej
@@ -95,7 +94,7 @@ nastav [body v] na (0)
 >>V proměnné <sb>(jmeno_hrace)</sb> bude jeho věk
 >></p></details>
 >
->> Uměli byste prohodit hodnoty dvou proměnných? 
+>>**Uměli byste prohodit hodnoty dvou proměnných?** 
 >>
 >><details><summary>Řešení</summary><p markdown="1">
 >>Měníme hodnotu proměnné <sb>(a)</sb> a <sb>(b)</sb> za pomoci proměnné <sb>(pom)</sb>.
@@ -107,16 +106,12 @@ nastav [body v] na (0)
 >></code>
 >></p>
 >></details>  
-><br/>
 >   
-
 
 ## Zkušenosti s výukou
 Doporučuji ujistit se, že děti vnímají rozdíl mezi  <sb>nastav [ v] na []</sb> a <sb>změň [ v] o ()</sb>. 
 
 Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. <sb>změň[pocet_zivotu] o (-1)</sb>
-
-
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
 Rozlišujeme, zda proměnná, kterou chceme vytvořit, má smysl pro program jako celek, nebo zda se jedná o vlastnost nebo informaci týkající se pouze některé z postav.
