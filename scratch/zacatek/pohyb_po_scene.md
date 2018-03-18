@@ -8,7 +8,9 @@ Je to úplně první lekce, seznámení se se Scratchem
 * postavy, kostýmy, zvuky
 * události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 * ukládání programu, načítání programu
+
 ---
+
 ## Scratch editor
 Po spuštění Scratche se před námi objeví editor rozdělený  na 4 části.
 ![](editor_nepopsany.png)
@@ -24,7 +26,7 @@ Postavy, které chceme v našem programu "zapojit do hry" musíme nejprve přida
 
 Každá postava může mít libovolné množství kostýmů, do kterých se může převlékat. To jaký má postava vzhled určuje právě kostým. Abychom se mohli podívat na kostýmy postavy, **přesvědčíme se, že máme vybranou postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy*. 
 ![](kostymy.png)
-Jak je vidět,kocour Scratchák má například kostýmy dva. Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat jako baletka.
+Jak je vidět,kocour Skrečák má například kostýmy dva. Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka.
 
 Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kostýmem.
 
