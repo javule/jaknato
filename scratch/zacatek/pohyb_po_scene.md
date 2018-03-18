@@ -20,7 +20,7 @@ Vlevo nahoře je velká bílá plocha, které říkáme *scéna*. Je to prostor,
 Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát  do pozadí obrázek uložený v počítači, nebo se vyfotit na pozadí kamerou. Nové pozadí se přidává těmito ikonami ![](volba_pozadi.png)
 
 
-<div class="poznamka" markdown="1">
+<div class="poznamka">
 Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy</div>
 
 
