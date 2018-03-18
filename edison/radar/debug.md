@@ -142,7 +142,7 @@ Protože budeme potřebovat monitorovat výstup Arduina, musíme ho pro puštěn
 ### Program pro Edisona
 Protože Edison dovoluje poslat pouze hodnotu 0 - 255, ale vnitřně pracuje se 16 bitovými proměnnými, můžeme si napsat metodu, která nám pošle oba bajty dvoubajtové proměnné a radar hodnotu složí. Bylo by fajn pak ale sekvenci uvést nějakým kódem. Za ten jsem vybral hodnotu `0×FF` (255). Chytí-li tedy radar hodnotu `0×FF`, očekává pak ještě další 2 hodnoty a pokusí se je přeložit do dvoubajtového čísla. 
 
->Tento postup nebude dobře fungovat, pokud by hovořili dva roboti najednou. Tam bych se pokud možno omezil na jednobajtové hodnoty, i tak je někdy problém rozpoznat, který Edison říká co :smile:.
+>Tento postup nebude dobře fungovat, pokud by hovořili dva roboti najednou. Tam bych se pokud možno omezil na jednobajtové hodnoty, i tak je někdy problém rozpoznat, který Edison říká co :smiley:.
 
 [edison_debug.py](edison_debug.py)
 ``` python
@@ -160,11 +160,11 @@ Edisoni svítí infračervěně velmi daleko, komunikace byla navržena tak, [ab
 
 #### Pozor na příliš mnoho světla
 
-Infračervené světlo je (jak název napovídá) světlo. Sice ho nevidíme, ale je to světlo a když svítíme více zdroji světla (více roboty najednou), je světla moc :-). To znamená, že můžeme zahlušit kompletně vzdušný prostor hromadou infračerveného světla a nejen náš radar, ale ani roboti vzájemně si nebudou rozumět.
+Infračervené světlo je (jak název napovídá) světlo. Sice ho nevidíme, ale je to světlo a když svítíme více zdroji světla (více roboty najednou), je světla moc :smiley:. To znamená, že můžeme zahlušit kompletně vzdušný prostor hromadou infračerveného světla a nejen náš radar, ale ani roboti vzájemně si nebudou rozumět.
 
 #### Pozor na jiná IR zařízení
 
-Souvisí to trochu s předchozím upozorněním, pokud svítíme infračerveně dalším zdrojem, může docházet k přeslechům. Ale tím zdrojem nemusí nutně být robot Edison, může to být klidně ovladač TV, který někdo v místnosti používá, nebo i [ovladač vlaku](TODO link), který je součástí řešené úlohy... :-)
+Souvisí to trochu s předchozím upozorněním, pokud svítíme infračerveně dalším zdrojem, může docházet k přeslechům. Ale tím zdrojem nemusí nutně být robot Edison, může to být klidně ovladač TV, který někdo v místnosti používá, nebo i [ovladač vlaku](TODO link), který je součástí řešené úlohy... :smiley:
 
 #### Pozor na příliš velkou rychlost
 
