@@ -16,7 +16,7 @@ První, co mě napadlo, byly základní výstupy Edisona: zvuk a světlo. Připa
 Program, který nám vybliká a vypípá hodnotu načtenou ze sensoru pro sledování čáry:
 
 [vypipej_barvu.py](vypipej_barvu.py)
-```python
+``` python
 {% include_relative vypipej_barvu.py %}
 ```
 
@@ -74,11 +74,11 @@ Hrát si s Arduinem lze na všech běžných platformách jako je Windows, Linux
 Na Linuxu potřebujeme oprávnění pro práci se seriovým portem. Uživatel musí být členem skupiny `dialout`.
 
 Takto zjistíme, v jakých jsme skupinách
-```bash
+``` bash
 $ groups
 ```
 Takto uživatele (i sebe) přidáme do skupiny `dialout`.
-```bash
+``` bash
 $ sudo usermod -aG dialout <user>
 ```
 Dále potřebujeme mít nainstalováno [Arduino IDE](https://www.arduino.cc/en/Main/Software).
@@ -104,11 +104,11 @@ Aby Arduino IDE vědělo, na jakém USB portu jsme připojili Arduino, které m�
 >![](device_manager.png)
 >
 >**Linux**
->``` shell
+>``` bash
 >ls -l /dev/tty*
 >```
 >nebo ještě lépe
->``` shell
+>``` bash
 >dmesg | tail
 >```
 
@@ -145,7 +145,7 @@ Protože Edison dovoluje poslat pouze hodnotu 0 - 255, ale vnitřně pracuje se 
 >Tento postup nebude dobře fungovat, pokud by hovořili dva roboti najednou. Tam bych se pokud možno omezil na jednobajtové hodnoty, i tak je někdy problém rozpoznat, který Edison říká co :-).
 
 [edison_debug.py](edison_debug.py)
-```python
+``` python
 {% include_relative  edison_debug.py %}
 ```
 
@@ -154,23 +154,23 @@ Výstup na radaru (monitoru seriové konzole) pak vypadá nějak takto:
 
 ### Poznatky z praxe
 
-**Pozor na přeslechy**
+#### Pozor na přeslechy
 
 Edisoni svítí infračervěně velmi daleko, komunikace byla navržena tak, [aby bylo možné si "povídat" přes celou učebnu](https://meetedison.com/forum/edpy-programming/ir-data-in-edpy/), takže dosah je klidně 4 a více metrů. Nicméně jde o světlo (byť pro lidi neviditelné), dochází k odrazům a může tak dojít i k "přeslechům", pokud je např. robot zády k čidlu. Pak Arduino program vypisuje, že hodnotě neporozuměl a neumí ji přeložit.
 
-**Pozor na příliš mnoho světla**
+#### Pozor na příliš mnoho světla
 
 Infračervené světlo je (jak název napovídá) světlo. Sice ho nevidíme, ale je to světlo a když svítíme více zdroji světla (více roboty najednou), je světla moc :-). To znamená, že můžeme zahlušit kompletně vzdušný prostor hromadou infračerveného světla a nejen náš radar, ale ani roboti vzájemně si nebudou rozumět.
 
-**Pozor na jiná IR zařízení**
+#### Pozor na jiná IR zařízení
 
 Souvisí to trochu s předchozím upozorněním, pokud svítíme infračerveně dalším zdrojem, může docházet k přeslechům. Ale tím zdrojem nemusí nutně být robot Edison, může to být klidně ovladač TV, který někdo v místnosti používá, nebo i [ovladač vlaku](TODO link), který je součástí řešené úlohy... :-)
 
-**Pozor na příliš velkou rychlost**
+#### Pozor na příliš velkou rychlost
 
 Přišel jsem na to, že i Edison má své limity, a pokud ho necháme posílat přes infra kódy příliš rychle, nezvládá to a posílá nesmysly (obvykle hodnotu `0×FF`, tedy 255). Experimentálně jsem přišel na to, že je potřeba mezi po sobě jdoucími odeslanými kódy z Edisona dát prodlevu alespoň 10&nbsp;ms, lépe více. Tohle by se mi bez radaru zjišťovalo opravdu těžko!
 
-```python
+``` python
 Ed.SendIRData(1)
 # bez teto prodlevy nam neprijde 1 a 2, ale 1 a nesmyslnych 255
 Ed.TimeWait(10, Ed.TIME_MILLISECONDS) 
