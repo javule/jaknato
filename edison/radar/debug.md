@@ -142,7 +142,7 @@ Protože budeme potřebovat monitorovat výstup Arduina, musíme ho pro puštěn
 ### Program pro Edisona
 Protože Edison dovoluje poslat pouze hodnotu 0 - 255, ale vnitřně pracuje se 16 bitovými proměnnými, můžeme si napsat metodu, která nám pošle oba bajty dvoubajtové proměnné a radar hodnotu složí. Bylo by fajn pak ale sekvenci uvést nějakým kódem. Za ten jsem vybral hodnotu `0×FF` (255). Chytí-li tedy radar hodnotu `0×FF`, očekává pak ještě další 2 hodnoty a pokusí se je přeložit do dvoubajtového čísla. 
 
->Tento postup nebude dobře fungovat, pokud by hovořili dva roboti najednou. Tam bych se pokud možno omezil na jednobajtové hodnoty, i tak je někdy problém rozpoznat, který Edison říká co :-) .
+>Tento postup nebude dobře fungovat, pokud by hovořili dva roboti najednou. Tam bych se pokud možno omezil na jednobajtové hodnoty, i tak je někdy problém rozpoznat, který Edison říká co :smile:.
 
 [edison_debug.py](edison_debug.py)
 ``` python
