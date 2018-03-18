@@ -9,5 +9,12 @@ nastav [jmeno_hrace v] na [Karel]
 změň [jmeno_hrace v] o (1)
 </code>
 
+
+
 </p></details>
 
+```blocks
+po kliknutí na @greenFlag
+nastav [jmeno_hrace v] na [Karel]
+změň [jmeno_hrace v] o (1)
+```
