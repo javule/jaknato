@@ -21,7 +21,7 @@ Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knih
 
 
 <div class="poznamka" markdown="1">
-:bulb: Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy</div>
+Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy</div>
 
 
 ### Postavy
