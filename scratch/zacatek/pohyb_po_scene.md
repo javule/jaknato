@@ -17,16 +17,18 @@ Po spuštění Scratche se před námi objeví editor rozdělený na několik č
 ![](editor_nepopsany.png)
 Vlevo nahoře je velká bílá plocha, které říkáme *scéna*. Je to prostor, na kterém se odehrává to, co jsme naprogramovali. Po scéně se pohybují postavy z *ohrádky* pod scénou a scéně také lze nastavit pozadí. 
 
-Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z galerie, nebo si pozadí namalujeme. Je možné si nahrát  do pozadí obrázek uložený v počítači, nebo se vyfotit na pozadí kamerou. ![](volba_pozadi.png)
+Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát  do pozadí obrázek uložený v počítači, nebo se vyfotit na pozadí kamerou. Nové pozadí se přidává těmito ikonami ![](volba_pozadi.png)
 
->**:bulb: Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy** 
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy** </div>
 
 ### Postavy
 Postavy, které chceme v našem programu "zapojit do hry", musíme nejprve přidat do *ohrádky pro postavy*, která se nachází pod scénou. Postavu si opět můžeme vybrat už hotovou z knihovny, nebo si namalovat vlastní.
 
->**:bulb: Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**</div>
 
-#### Program
+#### Scénáře
 
 Každé postavě zvlášť (i pozadí) lze nařídit, co bude na scéně po spuštění programu dělat. Aby se postava chovala tak, jak chceme, musíme jí to říct jazykem, kterému rozumí. Všechny příkazy, které postava zná, najdeme uprostřed Scratch editoru, roztříděné do složek podle oblastí, kterých se týkají.
 
@@ -34,20 +36,25 @@ Každé postavě zvlášť (i pozadí) lze nařídit, co bude na scéně po spu�
 
  **Vybereme postavu, kterou chceme programovat**, vybereme záložku Scénáře.
 
-<poznamka>Poznámka: **Vybereme postavu, kterou chceme programovat** budu stále dokola psát tučným písmem. Jedna z nejčastějších začátečnických chyb je začít psát program do jiné postavy. A až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.</poznamka>
+<div class="poznamka" markdown="1"><b>Poznámka:</b> **Vybereme postavu, kterou chceme programovat** budu stále dokola psát tučným písmem. Jedna z nejčastějších začátečnických chyb je začít psát program do jiné postavy. A až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.</div>
 
 Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle. 
 
  Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
 
-<poznamka>Poznámka: Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.</poznamka>
+<div class="poznamka" markdown="1"><b>Poznámka:</b> Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.</div>
 
 V této lekci nám budou stačit příkazy ze složky *Vzhled* a *Události*
 
 >** :feet: Krok za krokem**
->> Vytvoříme náš první program.Po spuštění nás postavička pozdraví.
+> Vytvoříme náš první program.Po spuštění nás postavička pozdraví.
 
  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210821336/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+>Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně.    
+>Vybereme postavu kocoura a na plochu pro scénáře přetáhneme ze záložky *vzhled* příkaz <sb> říkej [] příštích () sekund</sb>
+
+A
     
 #### Kostýmy
 
