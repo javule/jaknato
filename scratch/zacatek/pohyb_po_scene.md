@@ -229,6 +229,7 @@ změň kostým na [kostým1 v]
 <b>Poznámka:</b> Asi jste si při zkoušení programu všimli, že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
 
 Rozdíl mezi nimi je následující:
+
 <sb>hraj zvuk [mňau v] až do konce</sb>:    
 
 Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
