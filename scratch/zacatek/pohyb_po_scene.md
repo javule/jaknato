@@ -226,12 +226,14 @@ změň kostým na [kostým1 v]
 </div>
 
 <div class="poznamka" markdown="1">
-<b>Poznámka:</b> Asi jste si při zkoušení programu všimli,že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
+<b>Poznámka:</b> Asi jste si při zkoušení programu všimli, že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
 
 Rozdíl mezi nimi je následující:
 <sb>hraj zvuk [mňau v] až do konce</sb>:
+
 Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
 <sb>přehraj zvuk [mňau v]</sb>:
+
 Program doběhne k tomuto příkazu, spustí přehrávání zvuku,a zatímco zvuk hraje, program pokračuje dal.
 
 </div>
@@ -242,7 +244,7 @@ Pokud nevíte, zkuste naprogramovat obě varianty.
 </div>
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 7: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete, pokud chcete, aby kocour zamňoukal a hýbal u toho pusou** 
+:bulb: **Úkol 7: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete, pokud chcete, aby kocour zamňoukal a hýbal u toho pusou**    
 Pokud nevíte, zkuste naprogramovat obě varianty.
 </div>
 
