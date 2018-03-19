@@ -72,7 +72,7 @@ Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po
 
 Události mají tvar hnědé čepice, která se z vrchu přilepí k sekvenci příkazů a určí tím, kdy má být vykonávána.
 
-Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, má se posunout o 10 kroků:
+Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, se má posunout o 10 kroků:
 
 ```blocks
 
@@ -211,8 +211,8 @@ Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvu
     
 [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210996855/)
 
-Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](zvuky.png) vybereme příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost 
-<sb>po kliknutí na mě</sb>. Upravený kód bude vypadat následovně:
+Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](zvuky.png) vybereme příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost <sb>po kliknutí na mě</sb>.    
+Upravený kód bude vypadat následovně:
 
 <code class="language-blocks">
 po kliknutí na mě
@@ -221,14 +221,18 @@ změň kostým na [oko v]
 čekej (0.2) sekund
 změň kostým na [kostým1 v]
 </code>
+
 </div>
 
 <div class="poznamka" markdown="1">
-<b>Poznámka:</b> Asi jste si při zkoušení programu všimli, že záložka  ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>. Rozdíl mezi nimi je následující.
+<b>Poznámka:</b> Asi jste si při zkoušení programu všimli,že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
+
+Rozdíl mezi nimi je následující:
 <sb>hraj zvuk [mňau v] až do konce</sb>:
 Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
-<sb>přehraj zvuk [mňau v] </sb>:
+<sb>přehraj zvuk [mňau v]</sb>:
 Program doběhne k tomuto příkazu, spustí přehrávání zvuku,a zatímco zvuk hraje, program pokračuje dal.
+
 </div>
 
 <div class="poznamka" markdown="1">
