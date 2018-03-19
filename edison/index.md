@@ -1,5 +1,3 @@
-[← Zpět na rozcestník návodů](../index.md)
-
 # Úlohy s roboty Edison
 _píše Martin Javorek_
 
