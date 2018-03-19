@@ -73,12 +73,11 @@ Vidíme, že události mají tvar hnědé čepice, která se z vrchu přilepí k
 
 Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, má se posunout o 10 kroků.
 
-``
-blocks
+```blocks
 
 po stisku klávesy [ mezera v]
 posuň se o (10) kroků
-``
+```
 
 
 >** :feet: Krok za krokem**
