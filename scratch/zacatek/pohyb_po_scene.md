@@ -116,10 +116,12 @@ natoč se směrem (-90 v)
 posuň se o (10) kroků
 </code>
 Program vyzkoušejte. Zmáčkněte zelenou vlajku a zkoušejte mačkat klávesy šipka vpravo a vlevo.    
-Program vypadá vcelku slušně, jedinou vadou na kráse je, že doleva nám kocour běhá jaksi po hlavě..    
-Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>nastav způsob otáčení[jen vlevo-vpravo v]</sb>. Příkaz přidáme do události <sb>po kliknutí na @greenFlag</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. <code class="language-blocks">
+Program vypadá vcelku slušně, jedinou vadou na kráse je, že doleva nám kocour běhá jaksi po hlavě..
+
+Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>nastav způsob otáčení na[jen vlevo-vpravo v]</sb>. Příkaz přidáme do události <sb>po kliknutí na @greenFlag</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. 
+<code class="language-blocks">
 po kliknutí na @greenFlag
-nastav způsob otáčení[jen vlevo-vpravo v]
+nastav způsob otáčení na[jen vlevo-vpravo v]
 říkej [Ahoj] příštích (5) sekund
 </code>  
 Až spustíte program vlajkou příště, kocour už se bude chovat tak, jak má. 
