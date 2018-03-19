@@ -80,7 +80,7 @@ po stisku klávesy [ mezera v]
 posuň se o (10) kroků
 ```
 
-<div class="Poznamka" markdown="1" >
+<div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
  Vytvoříme náš první program. Po spuštění nás postavička pozdraví.Bude se pohybovat vpravo/vlevo po stisknutí příslušné klávesy:
