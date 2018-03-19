@@ -164,18 +164,19 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
 
  Událostí, na kterou bude postava nově reagovat je <sb>po kliknutí na mě</sb>. Opět najdeme ve složce ![](udalosti.png).
 
- Mrkání zařídíme tak, že změníme postavě na chvíli kostým. Místo kostýmu s otevřenýma očima bude mít chvíli kostým s okem zavřeným a po chvíli zas vrátíme kostým původní.
+ Mrkání zařídíme tak, že změníme postavě na chviličku kostým. Místo kostýmu s otevřenýma očima bude mít kostým s okem zavřeným a za moment zas vrátíme kostým původní.
 
 Změnu kostýmu provede příkaz <sb>změň kostým na [ v]</sb>
 ze záložky ![](vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým.
 <code class="language-blocks">
-po kliknuti na mě
+po kliknutí na mě
 změň kostým na [oko v]
 čekej (0.2) sekund
 změň kostým na [kostým1 v]
 </code>
     
-Ještě by to chtělo se ujistit, že program bude startovat s kocourem s oběma ocima otevřenýma. Upravíme kód v události <sb>po kliknutí na @greenFlag</sb>:
+Ještě by to chtělo se ujistit, že program bude startovat s kocourem s oběma očima otevřenýma.    
+Upravíme kód v události <sb>po kliknutí na @greenFlag</sb>:
 <code class="language-blocks">
 po kliknutí na @greenFlag
 nastav způsob otáčení na[jen vlevo-vpravo v]
