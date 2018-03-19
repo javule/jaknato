@@ -5,4 +5,4 @@
 * Úlohy s Micro:bity
 
 ## Licence
-Toto dílo podléhá licenci [Creative Commmons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/deed.cs).
+Toto dílo podléhá licenci [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/deed.cs).
