@@ -6,8 +6,9 @@
 Tady byste měli začít, pokud o Scratchi netušíte vůbec nic
 
 * seznámíme se s jednotlivými částmi Scratch editoru
-* pozadí, postavy, kostýmy, zvuky
+* pozadí, postavy,scénáře 
 * události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
+* kostýmy, zvuky
 * ukládání programu, načítání programu
 
 ---
@@ -53,7 +54,7 @@ Všechny příkazy, které postava zná, najdeme v záložce *Scénáře* uprost
 </div>
 
 Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle.    
-Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
+Pokud se nám vybraný příkaz nehodí, smažeme ho tak, že ho prostě vrátíme myší zpět do nabídky příkazů.
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [Hello] příštích (2) sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkaz přetáhněte myší do prostoru pro scénáře a dvojklikem na příkaz ho spusťte.
@@ -65,13 +66,13 @@ Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátí
 </div>
 
 ### Události
-To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší.. Rozklikněme záložku ![](udalosti.png) a uvidíme, které události Scratch nabízí.
+To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší.. Rozklikněte záložku ![](udalosti.png) a uvidíte, které události Scratch nabízí.
 
 Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 
-Vidíme, že události mají tvar hnědé čepice, která se z vrchu přilepí k sekvenci příkazů a určí tím, kdy bude vykonávána.
+Události mají tvar hnědé čepice, která se z vrchu přilepí k sekvenci příkazů a určí tím, kdy má být vykonávána.
 
-Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, má se posunout o 10 kroků.
+Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, má se posunout o 10 kroků:
 
 ```blocks
 
@@ -79,18 +80,19 @@ po stisku klávesy [ mezera v]
 posuň se o (10) kroků
 ```
 
+<div class="Poznamka" markdown="1" >
+:feet: **Krok za krokem**
 
->** :feet: Krok za krokem**
-> Vytvoříme náš první program.Po spuštění nás postavička pozdraví.
+ Vytvoříme náš první program. Po spuštění nás postavička pozdraví.Bude se pohybovat vpravo/vlevo po stisknutí příslušné klávesy:
 
  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210821336/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 >Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně.    
 >Vybereme postavu kocoura a na plochu pro scénáře přetáhneme ze záložky *vzhled* příkaz <sb> říkej [] příštích () sekund</sb>
-
+</div>
 A
     
-#### Kostýmy
+### Kostýmy
 
 Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". To jaký má postava vzhled určuje vybraný kostým. Abychom se mohli podívat na kostýmy postavy, **přesvědčíme se, že máme vybranou postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. Pravá šást editoru se překreslí a zobrazí se nám vše,co je třeba k editaci kostýmů.
 
@@ -107,7 +109,7 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
 >> Pokud by se vám obrázek upravoval špatně, můžete si ho převést z vektorového režimu na bitmapu (vpravo dole): ![](na_bitmapu.png)
 
 
-#### Zvuky
+### Zvuky
 Když budeme chtít, aby naše postavy vydávaly nějaké zvuky, musíme jim nejprve zvuky přidat do jejich záložky zvuků.
 **Přesvědčíme se, že máme vybranou postavu, které chceme přidávat zvuky**, a vybereme záložku *Zvuky*. Pravá část se překreslí a zobrazí se editor zvuků.
 
