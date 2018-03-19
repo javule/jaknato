@@ -211,7 +211,8 @@ Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvu
     
 [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210996855/)
 
-Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](zvuky.png) vybereme příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost <sb>po kliknutí na mě</sb>.    
+Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](zvuky.png) vybereme 
+příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost <sb>po kliknutí na mě</sb>.    
 Upravený kód bude vypadat následovně:
 
 <code class="language-blocks">
