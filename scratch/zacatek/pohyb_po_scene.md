@@ -56,13 +56,30 @@ Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme
 Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [Hello] příštích (2) sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkazy přetáhněte myší do prostoru pro scénáře a dvojklikem příkaz spusťte.
+:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [Hello] příštích (2) sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkaz přetáhněte myší do prostoru pro scénáře a dvojklikem na příkaz ho spusťte.
 <br/>Zkoušejte spojovat příkazy za sebe a dvojklikem spouštět.**
 </div>
+
+
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.
 </div>
 
-V této lekci nám budou stačit příkazy ze složky *Vzhled* a *Události*
+### Události
+To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší.. Rozklikněme záložku ![](udalosti.png) a uvidíme, které události Scratch nabízí.
+
+Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
+
+Vidíme, že události mají tvar hnědé čepice, která se z vrchu přilepí k sekvenci příkazů a určí tím, kdy bude vykonávána.
+
+Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, má se posunout o 10 kroků.
+
+``
+
+blocks
+po stisku klávesy [ mezera v]
+posuň se o (10) kroků
+``
+
 
 >** :feet: Krok za krokem**
 > Vytvoříme náš první program.Po spuštění nás postavička pozdraví.
