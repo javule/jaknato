@@ -130,20 +130,22 @@ Až spustíte program vlajkou příště, kocour už se bude chovat tak, jak má
     
 ### Kostýmy
 
-Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". To jaký má postava vzhled určuje vybraný kostým. Abychom se mohli podívat na kostýmy postavy, **přesvědčíme se, že máme vybranou postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. Pravá šást editoru se překreslí a zobrazí se nám vše,co je třeba k editaci kostýmů.
+Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". To jaký má postava vzhled určuje vybraný kostým. Abychom se mohli podívat na kostýmy postavy, **vybereme postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. V pravé část editoru se zobrazí vše,co je třeba k editaci kostýmů.
 
 ![](kostymy.png)
 
-Jak je vidět, kocour Skrečák má například kostýmy dva. Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka.
+Jak je vidět, kocour Skrečák má například kostýmy dva. Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka, ale chovat se bude tak, jak jsme ho naprogramovali předtím.
 
 Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kostýmem.
 
 ![](editace_kostymu.png)
 
-
->**:bulb: Úkol 3. Smažte jeden kostým kocoura, druhý zkopírujte a kopii domalujte vypláznutý jazyk.** 
->> Pokud by se vám obrázek upravoval špatně, můžete si ho převést z vektorového režimu na bitmapu (vpravo dole): ![](na_bitmapu.png)
-
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 4: Sažte jeden kostým kocoura, druhý zkopírujte a kopii dokreslete zavřené oko nebo vyplázlý jazyk** 
+</div>
+<div class="poznamka" markdown="1">
+Pokud by se vám obrázek upravoval špatně, můžete si ho převést z vektorového režimu na bitmapu (vpravo dole): ![](na_bitmapu.png)
+</div>
 
 ### Zvuky
 Když budeme chtít, aby naše postavy vydávaly nějaké zvuky, musíme jim nejprve zvuky přidat do jejich záložky zvuků.
