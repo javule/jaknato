@@ -130,22 +130,59 @@ Až spustíte program vlajkou příště, kocour už se bude chovat tak, jak má
     
 ### Kostýmy
 
-Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". To jaký má postava vzhled určuje vybraný kostým. Abychom se mohli podívat na kostýmy postavy, **vybereme postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. V pravé část editoru se zobrazí vše,co je třeba k editaci kostýmů.
+Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". To jaký má postava vzhled určuje vybraný kostým. Abychom se mohli podívat na kostýmy postavy, **vybereme postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. V pravé část editoru se zobrazí vše, co je třeba k editaci kostýmů.
 
 ![](kostymy.png)
 
-Jak je vidět, kocour Skrečák má například kostýmy dva. Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka, ale chovat se bude tak, jak jsme ho naprogramovali předtím.
+Z obrázku vidíme, že kocour Skrečák má například kostýmy dva.
+
+Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka, ale chovat se bude dál tak,jak jsme ho naprogramovali předtím.
 
 Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kostýmem.
 
 ![](editace_kostymu.png)
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 4: Sažte jeden kostým kocoura, druhý zkopírujte a kopii dokreslete zavřené oko nebo vyplázlý jazyk** 
+:bulb: **Úkol 4: Smažte jeden kostým kocoura, druhý zkopírujte a kopii dokreslete zavřené oko nebo vyplázlý jazyk** 
 </div>
 <div class="poznamka" markdown="1">
-Pokud by se vám obrázek upravoval špatně, můžete si ho převést z vektorového režimu na bitmapu (vpravo dole): ![](na_bitmapu.png)
+<b>Poznámka:</b> Pokud by se vám obrázek upravoval špatně, můžete si ho převést z vektorového režimu na bitmapu (vpravo dole): ![](na_bitmapu.png)
 </div>
+
+### Mrkací program
+
+<div class="poznamka" markdown="1" >
+:feet: **Krok za krokem**
+
+ <b>Chceme, aby naše postava z minulých cvičení zamrkala (vyplázla jazyk), když na ni klikneme myší:</b>       <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210922318/?autostart=false" frameborder="0" allowfullscreen></iframe>
+
+ [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210922318/)
+
+ Vezmeme projekt, na kterém jsme pracovali v minulých cvičeních a vylepšíme ho o mrkání.
+
+ Událostí, na kterou bude postava nově reagovat je <sb>po kliknuti na mě</sb>. Opět najdeme ve složce ![](udalosti.png).
+
+ Mrkání zařídíme tak, že změníme postavě na chvíli kostým. Místo kostýmu s otevřenýma očima bude mít chvíli kostým s okem zavřeným a po chvíli zas vrátíme kostým původní.
+
+Změnu kostýmu provede příkaz <sb>změň kostým na [ v]</sb>
+ze záložky ![](vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým.
+<code class="language-blocks">
+po kliknuti na mě
+změň kostým na [oko v]
+čekej (0.2) sekund
+změň kostým na [kostým1 v]
+</code>
+    
+Ještě by to chtělo se ujistit, že program bude startovat s kocourem s oběma ocima otevřenýma. Upravíme kód v události <sb>po kliknutí na @greenFlag</sb>:
+<code class="language-blocks">
+po kliknutí na @greenFlag
+nastav způsob otáčení na[jen vlevo-vpravo v]
+změň kostým na [kostým1 v]
+říkej [Ahoj] příštích (5) sekund
+</code>  
+Program ozkoušejte.
+ </div>
+
 
 ### Zvuky
 Když budeme chtít, aby naše postavy vydávaly nějaké zvuky, musíme jim nejprve zvuky přidat do jejich záložky zvuků.
