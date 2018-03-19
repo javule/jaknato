@@ -83,12 +83,20 @@ posuň se o (10) kroků
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
- Vytvoříme náš první program. Po spuštění nás postavička pozdraví.Bude se pohybovat vpravo/vlevo po stisknutí příslušné klávesy:
+ Vytvoříme náš první program. Po spuštění nás postavička pozdraví. Bude se pohybovat vpravo/vlevo po stisknutí příslušné klávesy:
 
  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210821336/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
->Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně.    
->Vybereme postavu kocoura a na plochu pro scénáře přetáhneme ze záložky *vzhled* příkaz <sb> říkej [] příštích () sekund</sb>
+ [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210821336)
+
+Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně.    
+**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>.    
+Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
+Ze záložky ![](udalosti.png) vybereme událost <sb>po kliknutí na @greenFlag</sb> a přilepíme k předchozímu příkazu.    
+<code class="language-blocks">
+po kliknutí na @greenFlag
+říkej [Ahoj] příštích (5) sekund
+</code>
 </div>
 A
     
