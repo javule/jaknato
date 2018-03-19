@@ -26,7 +26,7 @@ Nový obrázek se přidává těmito ikonami ![](volba_pozadi.png).
 Obrázků pozadí si můžeme do projektu nahrát několik, zobrazovat se bude vždy ten, který je v záložce *Pozadí* v pravé části editoru vybraný.
 ![](pozadi_aktivni.png)  
 
-Pozadí ve Scratchi ale není jen soubor obrázků, jeho součástí je i **kód (*Scénáře*)**, který určuje jeho chování za běhu programu, a ***zvuky***, které program pozadí může spouštět.  Časem se naučíme ovládat pozadí i programem.
+Pozadí ve Scratchi ale není jen soubor obrázků. Jeho součástí je i **kód (*Scénáře*)**, který určuje jeho chování, a ***zvuky***, které program pozadí může spouštět. Časem se naučíme ovládat pozadí i programem.
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy**
@@ -35,15 +35,15 @@ Pozadí ve Scratchi ale není jen soubor obrázků, jeho součástí je i **kód
 ### Postavy
 Postavy, které chceme v našem programu "zapojit do hry", musíme nejprve přidat do *ohrádky pro postavy*, která se nachází pod scénou. Postavu si opět můžeme vybrat už hotovou z knihovny, nebo si namalovat vlastní.
 
-Stejně, jako je tomu u pozadí, **je součástí postavy** její **vzhled (*Kostýmy*)**, její **kód (*Scénáře*)**, který určuje její chování za běhu programu, a její ***Zvuky***, které lze používat v programu.
-
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**
 </div>
 
+Stejně, jako je tomu u pozadí, **je součástí postavy** její **vzhled (*Kostýmy*)**, její **kód (*Scénáře*)**, který určuje její chování za běhu programu, a její ***Zvuky***, které lze používat v programu.
+
 ### Scénáře
 
-Každé postavě zvlášť ,i pozadí, lze naprogramovat, co bude na scéně po spuštění programu dělat. Aby se postava chovala tak, jak chceme, musíme jí to říct jazykem, kterému rozumí.    
+Každé postavě zvlášť, i pozadí, lze naprogramovat, co bude na scéně po spuštění programu dělat. Aby se postava chovala tak, jak chceme, musíme jí to říct jazykem, kterému rozumí.    
 Všechny příkazy, které postava zná, najdeme v záložce *Scénáře* uprostřed editoru, roztříděné do složek podle oblastí, kterých se týkají.
 
 ![](scenare.png)
@@ -52,10 +52,13 @@ Všechny příkazy, které postava zná, najdeme v záložce *Scénáře* uprost
 <div class="poznamka"><b>Poznámka:</b> Stále dokola budu v obrázcích i textu upozorňovat na to, že <b>před tím, než začneme upravovat kód, kostýmy, či zvuky, je třeba vybrat v ohrádce postavu (pozadí), které se to týká</b>. Začátečníkůmu se velmi často stává, že napíší program nebo přidají zvuky do jiné postavy, než zamýšleli.<br/> Až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.
 </div>
 
-Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle. 
+Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle.    
+Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
 
- Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
-
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [] příštích () sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkazy přetáhněte myší do prostoru pro scénáře a dvojklikem příkaz spusťte.
+<br/>Zkoušejte spojovat příkazy za sebe a dvojklikem spouštět.
+</div>
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.
 </div>
 
