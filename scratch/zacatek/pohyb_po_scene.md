@@ -56,8 +56,8 @@ Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme
 Pokud se vám vybraný příkaz nehodí, smažete ho tak, že ho prostě vrátíte myší zpět do nabídky příkazů.
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [] příštích () sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkazy přetáhněte myší do prostoru pro scénáře a dvojklikem příkaz spusťte.
-<br/>Zkoušejte spojovat příkazy za sebe a dvojklikem spouštět.
+:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [Hello] příštích (2) sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkazy přetáhněte myší do prostoru pro scénáře a dvojklikem příkaz spusťte.
+<br/>Zkoušejte spojovat příkazy za sebe a dvojklikem spouštět.**
 </div>
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Všiměte si, že příkazy mají vždy stejnou barvu, jako složka, ve které se nacházejí. Napoví vám to později, ve které složce máte příkaz, který uvidíte v návodu, hledat.
 </div>
