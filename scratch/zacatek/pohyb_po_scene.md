@@ -2,10 +2,11 @@
 
 ---
 ### Co se naučíme:
-Je to úplně první lekce, seznámení se se Scratchem
+Úplně první lekce, seznámení se se Scratchem.    
+Tady byste měli začít, pokud o Scratchi netušíte vůbec nic
 
 * seznámíme se s jednotlivými částmi Scratch editoru
-* postavy, kostýmy, zvuky
+* pozadí, postavy, kostýmy, zvuky
 * události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 * ukládání programu, načítání programu
 
@@ -13,34 +14,42 @@ Je to úplně první lekce, seznámení se se Scratchem
 
 ## Scratch editor
 ### Scéna
-Po spuštění Scratche se před námi objeví editor rozdělený na několik částí.
-![](editor_nepopsany.png)
+Po spuštění Scratche se před námi objeví editor rozdělený na několik částí:    
+![](editor_nepopsany.png)    
+
 Vlevo nahoře je velká bílá plocha, které říkáme *scéna*. Je to prostor, na kterém se odehrává to, co jsme naprogramovali. Po scéně se pohybují postavy z *ohrádky* pod scénou a scéně také lze nastavit pozadí. 
 
-Pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát  do pozadí obrázek uložený v počítači, nebo se vyfotit na pozadí kamerou. Nové pozadí se přidává těmito ikonami ![](volba_pozadi.png)
+### Pozadí
 
+Obrázek pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát do pozadí obrázek uložený v počítači, nebo se vyfotit kamerou.    
+Nový obrázek se přidává těmito ikonami ![](volba_pozadi.png).    
+Obrázků pozadí si můžeme do projektu nahrát několik, zobrazovat se bude vždy to, které je v záložce *Pozadí* v pravé části editoru vybrané. Časem se naučíme ovládat pozadí i programem.
+![](pozadi_aktivni.png)  
+
+Pozadí ve Scratchi ale není jen soubor obrázků, jeho součástí je i **kód (*Scénáře*)**, který určuje jeho chování za běhu programu, a ***zvuky***, které program pozadí může spouštět.
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy**
 </div>
 
-
 ### Postavy
 Postavy, které chceme v našem programu "zapojit do hry", musíme nejprve přidat do *ohrádky pro postavy*, která se nachází pod scénou. Postavu si opět můžeme vybrat už hotovou z knihovny, nebo si namalovat vlastní.
+
+Stejně, jako je tomu u pozadí, **je součástí postavy** její **vzhled (*Kostýmy*)**, její **kód (*Scénáře*)**, který určuje její chování za běhu programu, a její ***Zvuky***, které lze používat v programu.
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 2. Přidejte do ohrádky ještě jednu postavu z knihovny postav**
 </div>
 
-#### Scénáře
+### Scénáře
 
-Každé postavě zvlášť (i pozadí) lze nařídit, co bude na scéně po spuštění programu dělat. Aby se postava chovala tak, jak chceme, musíme jí to říct jazykem, kterému rozumí. Všechny příkazy, které postava zná, najdeme uprostřed Scratch editoru, roztříděné do složek podle oblastí, kterých se týkají.
+Každé postavě zvlášť ,i pozadí, lze naprogramovat, co bude na scéně po spuštění programu dělat. Aby se postava chovala tak, jak chceme, musíme jí to říct jazykem, kterému rozumí.    
+Všechny příkazy, které postava zná, najdeme v záložce *Scénáře* uprostřed editoru, roztříděné do složek podle oblastí, kterých se týkají.
 
 ![](scenare.png)
 
- **Vybereme postavu, kterou chceme programovat**, vybereme záložku Scénáře.
-
-<div class="poznamka" markdown="1"><b>Poznámka:</b> **Vybereme postavu, kterou chceme programovat** budu stále dokola psát tučným písmem. Jedna z nejčastějších začátečnických chyb je začít psát program do jiné postavy. A až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.
+ 
+<div class="poznamka"><b>Poznámka:</b> Stále dokola budu v obrázcích i textu upozorňovat na to, že <b>před tím, než začneme upravovat kód, kostýmy, či zvuky, je třeba vybrat v ohrádce postavu (pozadí), které se to týká</b>. Začátečníkůmu se velmi často stává, že napíší program nebo přidají zvuky do jiné postavy, než zamýšleli.<br/> Až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.
 </div>
 
 Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle. 
