@@ -204,7 +204,7 @@ Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvu
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
- <b>Když na kocoura klikneme myší, chceme, aby při mrknutí zamňoukal:</b> 
+ <b>Chceme, aby kocour zamňoukal,kdyžna něj klikneme myší:</b> 
 
 <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210996855/?autostart=false" frameborder="0" allowfullscreen>
 </iframe>
@@ -225,8 +225,7 @@ změň kostým na [kostým1 v]
 
 </div>
 
-<div class="poznamka" markdown="1">
-<b>Poznámka:</b> Asi jste si při zkoušení programu všimli, že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
+Asi jste si při zkoušení programu všimli, že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
 
 Rozdíl mezi nimi je následující:
 
@@ -236,7 +235,6 @@ Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání v
 Příkaz <sb>přehraj zvuk [mňau v]</sb>:    
 Program doběhne k tomuto příkazu, spustí přehrávání zvuku a zatímco zvuk hraje, program pokračuje dal.
 
-</div>
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 6: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete, pokud chcete, aby kocour třikrát za sebou zamňoukal**     
