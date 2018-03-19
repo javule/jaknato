@@ -154,13 +154,15 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
- <b>Chceme, aby naše postava z minulých cvičení zamrkala (vyplázla jazyk), když na ni klikneme myší:</b>       <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210922318/?autostart=false" frameborder="0" allowfullscreen></iframe>
+ <b>Chceme, aby naše postava z minulých cvičení zamrkala (vyplázla jazyk), když na ni klikneme myší:</b> 
 
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210922318/?autostart=false" frameborder="0" allowfullscreen></iframe>
+  
  [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210922318/)
 
  Vezmeme projekt, na kterém jsme pracovali v minulých cvičeních a vylepšíme ho o mrkání.
 
- Událostí, na kterou bude postava nově reagovat je <sb>po kliknuti na mě</sb>. Opět najdeme ve složce ![](udalosti.png).
+ Událostí, na kterou bude postava nově reagovat je <sb>po kliknutí na mě</sb>. Opět najdeme ve složce ![](udalosti.png).
 
  Mrkání zařídíme tak, že změníme postavě na chvíli kostým. Místo kostýmu s otevřenýma očima bude mít chvíli kostým s okem zavřeným a po chvíli zas vrátíme kostým původní.
 
