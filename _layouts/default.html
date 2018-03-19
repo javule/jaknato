@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "cs-CZ" }}">
   <head>
     <meta charset="UTF-8">
 
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
+    <a href="{{ site.url }}" >
     <section class="page-header">
       <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
       <h1>JAK NA TO</h1>
@@ -23,6 +24,7 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </section>
+  </a>
 
     <section class="main-content">
       {{ content }}
@@ -48,6 +50,7 @@
     {% endif %}
 
 
+    <!-- Scratchblocks-->
     <script src="https://scratchblocks.github.io/js/scratchblocks-v3.1-min.js"></script>
     <script src="https://scratchblocks.github.io/js/translations-all-v3.1-min.js" charset="utf8"></script>
     <script>scratchblocks.renderMatching('.language-blocks', {languages: ['cs']});</script>
