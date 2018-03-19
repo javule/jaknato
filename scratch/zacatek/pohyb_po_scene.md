@@ -84,7 +84,7 @@ posuň se o (10) kroků
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
- Vytvoříme náš první program. Po spuštění nás postavička pozdraví. Bude se pohybovat vpravo/vlevo po stisknutí příslušné klávesy:
+ <b>Vytvoříme náš první program. Po spuštění nás postavička pozdraví. Bude se pohybovat vpravo/vlevo po stisknutí příslušné klávesy:</b>
 
  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210821336/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
@@ -92,8 +92,7 @@ posuň se o (10) kroků
 
 Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně. 
 #### Pozdrav   
-**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>.    
-Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
+**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>. Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
 Ze záložky ![](udalosti.png) vybereme událost <sb>po kliknutí na @greenFlag</sb> a přilepíme k předchozímu příkazu.    
 <code class="language-blocks">
 po kliknutí na @greenFlag
@@ -102,7 +101,7 @@ po kliknutí na @greenFlag
 A máme kocoura, který nás po spuštění programu vlaječkou pozdraví!
 
 #### Pohyb
-Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb>. 
+Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepici <sb>po stisku klávesy [ šipka vpravo v]</sb>. 
 <code class="language-blocks">
 po stisku klávesy [ šipka vpravo v]
 natoč se směrem (90 v)
