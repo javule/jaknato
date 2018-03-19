@@ -1,4 +1,4 @@
-# Jak začít učit děti Scratch
+# Pro jak staré děti je Scratch
 
 Scratch je programovací jazyk vhodný podle mých zkušeností pro děti od druhé až třetí třídy základní školy. Horní hranice věku omezená není, stejně dobře poslouží i sedmákovi, který se bude chtít začít učit programovat.
 
