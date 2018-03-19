@@ -102,7 +102,7 @@ po kliknutí na @greenFlag
 A máme kocoura, který nás po spuštění programu vlaječkou pozdraví!
 
 #### Pohyb
-Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb> 
+Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb>. 
 <code class="language-blocks">
 po stisku klávesy [ šipka vpravo v]
 natoč se směrem (90 v)
@@ -116,9 +116,16 @@ po stisku klávesy [ šipka vlevo v]
 natoč se směrem (-90 v)
 posuň se o (10) kroků
 </code>
-
+Program vyzkoušejte. Zmáčkněte zelenou vlajku a zkoušejte mačkat klávesy šipka vpravo a vlevo.    
+Program vypadá vcelku slušně, jedinou vadou na kráse je, že doleva nám kocour běhá jaksi po hlavě..    
+Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>nastav způsob otáčení[jen vlevo-vpravo v]</sb>. Příkaz přidáme do události <sb>po kliknutí na @greenFlag</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. <code class="language-blocks">
+po kliknutí na @greenFlag
+nastav způsob otáčení[jen vlevo-vpravo v]
+říkej [Ahoj] příštích (5) sekund
+</code>  
+Až spustíte program vlajkou příště, kocour už se bude chovat tak, jak má. 
 </div>
-A
+
     
 ### Kostýmy
 
