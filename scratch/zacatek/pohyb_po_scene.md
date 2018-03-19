@@ -102,7 +102,20 @@ po kliknutí na @greenFlag
 A máme kocoura, který nás po spuštění programu vlaječkou pozdraví!
 
 #### Pohyb
-Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb> A Skrečák už se sune doprava.
+Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb> 
+<code class="language-blocks">
+po stisku klávesy [ šipka vpravo v]
+natoč se směrem (90 v)
+posuň se o (10) kroků
+</code>
+A Skrečák už se sune doprava.
+
+Stejným způsobem uděláme i pohyb vlevo:
+<code class="language-blocks">
+po stisku klávesy [ šipka vlevo v]
+natoč se směrem (-90 v)
+posuň se o (10) kroků
+</code>
 
 </div>
 A
