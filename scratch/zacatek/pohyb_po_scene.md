@@ -233,8 +233,7 @@ Rozdíl mezi nimi je následující:
  <sb>hraj zvuk [mňau v] až do konce</sb>:    
 
 Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
-<sb>přehraj zvuk [mňau v]</sb>:    
-
+Příkaz <sb>přehraj zvuk [mňau v]</sb>:    
 Program doběhne k tomuto příkazu, spustí přehrávání zvuku,a zatímco zvuk hraje, program pokračuje dal.
 
 </div>
