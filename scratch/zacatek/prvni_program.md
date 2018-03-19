@@ -66,7 +66,7 @@ Pokud se nám vybraný příkaz nehodí, smažeme ho tak, že ho prostě vrátí
 </div>
 
 ### Události
-To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší.. Rozklikněte záložku ![](udalosti.png) a uvidíte, které události Scratch nabízí.
+To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší.. Rozklikněte záložku ![](/scratch/images/udalosti.png) a uvidíte, které události Scratch nabízí.
 
 Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 
@@ -92,7 +92,7 @@ posuň se o (10) kroků
 
 Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně. 
 #### Pozdrav   
-**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](../images/vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>. Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
+**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](/scratch/images/vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>. Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
 Ze záložky ![](/scratch/images/udalosti.png) vybereme událost <sb>po kliknutí na @greenFlag</sb> a přilepíme k předchozímu příkazu.    
 <code class="language-blocks">
 po kliknutí na @greenFlag
@@ -162,12 +162,12 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
 
  Vezmeme projekt, na kterém jsme pracovali v minulých cvičeních a vylepšíme ho o mrkání.
 
- Událostí, na kterou bude postava nově reagovat je <sb>po kliknutí na mě</sb>. Opět najdeme ve složce ![](udalosti.png).
+ Událostí, na kterou bude postava nově reagovat je <sb>po kliknutí na mě</sb>. Opět najdeme ve složce ![](/scratch/images/udalosti.png).
 
  Mrkání zařídíme tak, že změníme postavě na chviličku kostým. Místo kostýmu s otevřenýma očima bude mít kostým s okem zavřeným a za moment zas vrátíme kostým původní.
 
 Změnu kostýmu provede příkaz <sb>změň kostým na [ v]</sb>
-ze záložky ![](vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým:
+ze záložky ![](/scratch/images/vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým:
 <code class="language-blocks">
 po kliknutí na mě
 změň kostým na [oko v]
@@ -211,7 +211,7 @@ Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvu
     
 [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210996855/)
 
-Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](zvuky.png) vybereme 
+Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](/scratch/images/zvuky.png) vybereme 
 příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost <sb>po kliknutí na mě</sb>.    
 Upravený kód bude vypadat následovně:
 
@@ -225,7 +225,7 @@ změň kostým na [kostým1 v]
 
 </div>
 
-Asi jste si při zkoušení programu všimli, že záložka ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
+Asi jste si při zkoušení programu všimli, že záložka ![](/scratch/images/zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
 
 Rozdíl mezi nimi je následující:
 
