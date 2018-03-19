@@ -189,11 +189,11 @@ Program ozkoušejte.
 
 ### Zvuky
 Když budeme chtít, aby naše postavy vydávaly nějaké zvuky, musíme jim nejprve zvuky přidat do jejich záložky zvuků.
-*Vybereme postavu, které chceme přidávat zvuky**, a vybereme záložku *Zvuky*. V pravé časti se objeví editor zvuku.
+**Vybereme postavu, které chceme přidávat zvuky**, a vybereme záložku *Zvuky*. V pravé časti se objeví editor zvuku.
 
 ![](zvuk.png)
 
-Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvuků, nebo si můžeme nahrát zvuk vlastní.
+Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvuků, nebo si můžeme nahrát vlastní.
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 5: Přidejte postavě kocoura zvuk, který sami nahrajete** 
@@ -204,10 +204,7 @@ Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvu
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
- <b>Když na kocoura klikneme myší, chceme, při mrknutí vydal nějaký zvuk:</b> 
-
- <div class="poznamka" markdown="1">
-:bulb: **Úkol 4: Smažte jeden kostým kocoura, druhý zkopírujte a kopii dokreslete zavřené oko nebo vyplázlý jazyk** 
+ <b>Když na kocoura klikneme myší, chceme, aby při mrknutí zamňoukal:</b> 
 
 <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210996855/?autostart=false" frameborder="0" allowfullscreen>
 </iframe>
@@ -235,12 +232,12 @@ Program doběhne k tomuto příkazu, spustí přehrávání zvuku,a zatímco zvu
 </div>
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 6: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete,pokud chcete, aby kocour třikrát za sebou zamňoukal**     
+:bulb: **Úkol 6: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete, pokud chcete, aby kocour třikrát za sebou zamňoukal**     
 Pokud nevíte, zkuste naprogramovat obě varianty.
 </div>
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 7: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete,pokud chcete, aby kocour zamňoukal a hýbal u toho pusou** 
+:bulb: **Úkol 7: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete, pokud chcete, aby kocour zamňoukal a hýbal u toho pusou** 
 Pokud nevíte, zkuste naprogramovat obě varianty.
 </div>
 
