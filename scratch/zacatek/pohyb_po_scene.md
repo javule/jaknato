@@ -1,4 +1,4 @@
-# Pohyb po scéně
+# První program
 
 ---
 ### Co se naučíme:
@@ -21,12 +21,12 @@ Vlevo nahoře je velká bílá plocha, které říkáme *scéna*. Je to prostor,
 
 ### Pozadí
 
-Obrázek pozadí se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát do pozadí obrázek uložený v počítači, nebo se vyfotit kamerou.    
+Obrázek pozadí scény se nastavuje vlevo dole. Vybrat si můžeme z hotových obrázků z knihovny pozadí, nebo si pozadí namalujeme. Je možné si nahrát do pozadí obrázek uložený v počítači, nebo se vyfotit kamerou.    
 Nový obrázek se přidává těmito ikonami ![](volba_pozadi.png).    
-Obrázků pozadí si můžeme do projektu nahrát několik, zobrazovat se bude vždy to, které je v záložce *Pozadí* v pravé části editoru vybrané. Časem se naučíme ovládat pozadí i programem.
+Obrázků pozadí si můžeme do projektu nahrát několik, zobrazovat se bude vždy ten, který je v záložce *Pozadí* v pravé části editoru vybraný.
 ![](pozadi_aktivni.png)  
 
-Pozadí ve Scratchi ale není jen soubor obrázků, jeho součástí je i **kód (*Scénáře*)**, který určuje jeho chování za běhu programu, a ***zvuky***, které program pozadí může spouštět.
+Pozadí ve Scratchi ale není jen soubor obrázků, jeho součástí je i **kód (*Scénáře*)**, který určuje jeho chování za běhu programu, a ***zvuky***, které program pozadí může spouštět.  Časem se naučíme ovládat pozadí i programem.
 
 <div class="poznamka" markdown="1">
 :bulb: **Úkol 1. Vyberte si pěkné pozadí pro naše první pokusy**
