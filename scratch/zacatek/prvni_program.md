@@ -9,7 +9,6 @@ Tady byste měli začít, pokud o Scratchi netušíte vůbec nic
 * pozadí, postavy,scénáře 
 * události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 * kostýmy, zvuky
-* ukládání programu, načítání programu
 
 ---
 
@@ -118,7 +117,7 @@ posuň se o (10) kroků
 Program vyzkoušejte. Zmáčkněte zelenou vlajku a zkoušejte mačkat klávesy šipka vpravo a vlevo.    
 Program vypadá vcelku slušně, jedinou vadou na kráse je, že doleva nám kocour běhá jaksi po hlavě..
 
-Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>nastav způsob otáčení na[jen vlevo-vpravo v]</sb>. Příkaz přidáme do události <sb>po kliknutí na @greenFlag</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. 
+Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>nastav způsob otáčení na[jen vlevo-vpravo v]</sb>. Příkaz přidáme k události <sb>po kliknutí na @greenFlag</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. 
 <code class="language-blocks">
 po kliknutí na @greenFlag
 nastav způsob otáčení na[jen vlevo-vpravo v]
@@ -130,13 +129,13 @@ Až spustíte program vlajkou příště, kocour už se bude chovat tak, jak má
     
 ### Kostýmy
 
-Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". To jaký má postava vzhled určuje vybraný kostým. Abychom se mohli podívat na kostýmy postavy, **vybereme postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. V pravé část editoru se zobrazí vše, co je třeba k editaci kostýmů.
+Každá postava může mít libovolné množství kostýmů, do kterých se může "převlékat". Vybraný kostým určuje vzhled postavy. Abychom se mohli podívat na kostýmy postavy, **vybereme postavu, jejíž kostýmy chceme vidět** a vybereme záložku *Kostýmy* v pravé půlce editoru. V pravé části editoru se zobrazí vše, co je třeba k editaci kostýmů.
 
 ![](kostymy.png)
 
 Z obrázku vidíme, že kocour Skrečák má kostýmy dva.
 
-Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka, ale chovat se bude dál tak,jak jsme ho naprogramovali předtím.
+Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka, ale chovat se bude dál tak, jak jsme ho naprogramovali předtím.
 
 Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kostýmem.
 
