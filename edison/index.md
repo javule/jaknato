@@ -8,7 +8,7 @@ _píše Martin Javorek_
 Roboti jsou tak pěkným můstkem, jak děti z blokového programování pomalu převést právě např. do Pythonu.
 
 ## Tipy a triky
-* [Jak si vypsat hodnotu, kterou ví jen robot Edison (pokus o debugging)](radar/debug.md)
+* [Jak si vypsat hodnotu, kterou ví jen robot Edison (pokus o debugging)](radar/index.md)
 * Další chytáky zjištěné při programování robotů
 
 ## Pokročilé úlohy
