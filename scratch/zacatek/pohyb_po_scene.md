@@ -90,7 +90,8 @@ posuň se o (10) kroků
 
  [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210821336)
 
-Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně.    
+Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně. 
+#### Pozdrav   
 **Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>.    
 Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
 Ze záložky ![](udalosti.png) vybereme událost <sb>po kliknutí na @greenFlag</sb> a přilepíme k předchozímu příkazu.    
@@ -100,7 +101,7 @@ po kliknutí na @greenFlag
 </code>
 A máme kocoura, který nás po spuštění programu vlaječkou pozdraví!
 
-
+#### Pohyb
 Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb> A Skrečák už se sune doprava.
 
 </div>
