@@ -230,7 +230,7 @@ změň kostým na [kostým1 v]
 
 Rozdíl mezi nimi je následující:
 
-<sb>hraj zvuk [mňau v] až do konce</sb>:    
+ <sb>hraj zvuk [mňau v] až do konce</sb>:    
 
 Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
 <sb>přehraj zvuk [mňau v]</sb>:    
