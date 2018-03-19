@@ -79,6 +79,7 @@ Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, má s
 po stisku klávesy [ mezera v]
 posuň se o (10) kroků
 ```
+### První program
 
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
@@ -97,6 +98,9 @@ Ze záložky ![](udalosti.png) vybereme událost <sb>po kliknutí na @greenFlag<
 po kliknutí na @greenFlag
 říkej [Ahoj] příštích (5) sekund
 </code>
+A máme kocoura, který nás po spuštění programu vlaječkou pozdraví!
+
+Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <br>natoč se směrem (90 v)</br>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepičku <sb>po stisku klávesy [ šipka vpravo v]</sb> A Skrečák už se sune doprava.
 </div>
 A
     
