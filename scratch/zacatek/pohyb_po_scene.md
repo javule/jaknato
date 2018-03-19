@@ -2,10 +2,10 @@
 
 ---
 ### Co se naučíme:
-Úplně první lekce, seznámení se se Scratchem.    
+Úplně první lekce, seznámení se se Scratch editorem.    
 Tady byste měli začít, pokud o Scratchi netušíte vůbec nic
 
-* seznámíme se s jednotlivými částmi Scratch editoru
+* seznámíme se s jednotlivými částmi editoru
 * pozadí, postavy,scénáře 
 * události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 * kostýmy, zvuky
@@ -134,7 +134,7 @@ Každá postava může mít libovolné množství kostýmů, do kterých se mů�
 
 ![](kostymy.png)
 
-Z obrázku vidíme, že kocour Skrečák má například kostýmy dva.
+Z obrázku vidíme, že kocour Skrečák má kostýmy dva.
 
 Když bychom kocourovi smazali všechny jeho kostýmy a nahráli mu kostýmy třeba baletky, bude jednoduše vypadat v našem programu jako baletka, ale chovat se bude dál tak,jak jsme ho naprogramovali předtím.
 
@@ -154,7 +154,7 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
 <div class="poznamka" markdown="1" >
 :feet: **Krok za krokem**
 
- <b>Chceme, aby naše postava z minulých cvičení zamrkala (vyplázla jazyk), když na ni klikneme myší:</b> 
+ <b>Chceme, aby naše postava z minulých cvičení zamrkala (nebo vyplázla jazyk), když na ni klikneme myší:</b> 
 
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210922318/?autostart=false" frameborder="0" allowfullscreen></iframe>
   
@@ -167,7 +167,7 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
  Mrkání zařídíme tak, že změníme postavě na chviličku kostým. Místo kostýmu s otevřenýma očima bude mít kostým s okem zavřeným a za moment zas vrátíme kostým původní.
 
 Změnu kostýmu provede příkaz <sb>změň kostým na [ v]</sb>
-ze záložky ![](vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým.
+ze záložky ![](vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým:
 <code class="language-blocks">
 po kliknutí na mě
 změň kostým na [oko v]
@@ -189,10 +189,59 @@ Program ozkoušejte.
 
 ### Zvuky
 Když budeme chtít, aby naše postavy vydávaly nějaké zvuky, musíme jim nejprve zvuky přidat do jejich záložky zvuků.
-**Přesvědčíme se, že máme vybranou postavu, které chceme přidávat zvuky**, a vybereme záložku *Zvuky*. Pravá část se překreslí a zobrazí se editor zvuků.
+*Vybereme postavu, které chceme přidávat zvuky**, a vybereme záložku *Zvuky*. V pravé časti se objeví editor zvuku.
 
 ![](zvuk.png)
 
 Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvuků, nebo si můžeme nahrát zvuk vlastní.
 
-![](scratch_editor.png)
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 5: Přidejte postavě kocoura zvuk, který sami nahrajete** 
+</div>
+
+### Program se zvuky
+
+<div class="poznamka" markdown="1" >
+:feet: **Krok za krokem**
+
+ <b>Když na kocoura klikneme myší, chceme, při mrknutí vydal nějaký zvuk:</b> 
+
+ <div class="poznamka" markdown="1">
+:bulb: **Úkol 4: Smažte jeden kostým kocoura, druhý zkopírujte a kopii dokreslete zavřené oko nebo vyplázlý jazyk** 
+
+<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/210996855/?autostart=false" frameborder="0" allowfullscreen>
+</iframe>
+    
+[Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210996855/)
+
+Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](zvuky.png) vybereme příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost 
+<sb>po kliknutí na mě</sb>. Upravený kód bude vypadat následovně:
+
+<code class="language-blocks">
+po kliknutí na mě
+přehraj zvuk [mňau v]
+změň kostým na [oko v]
+čekej (0.2) sekund
+změň kostým na [kostým1 v]
+</code>
+</div>
+
+<div class="poznamka" markdown="1">
+<b>Poznámka:</b> Asi jste si při zkoušení programu všimli, že záložka  ![](zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>. Rozdíl mezi nimi je následující.
+<sb>hraj zvuk [mňau v] až do konce</sb>:
+Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
+<sb>přehraj zvuk [mňau v] </sb>:
+Program doběhne k tomuto příkazu, spustí přehrávání zvuku,a zatímco zvuk hraje, program pokračuje dal.
+</div>
+
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 6: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete,pokud chcete, aby kocour třikrát za sebou zamňoukal**     
+Pokud nevíte, zkuste naprogramovat obě varianty.
+</div>
+
+<div class="poznamka" markdown="1">
+:bulb: **Úkol 7: Rozhodněte, který z příkazů popsaných v předchozí poznámce použijete,pokud chcete, aby kocour zamňoukal a hýbal u toho pusou** 
+Pokud nevíte, zkuste naprogramovat obě varianty.
+</div>
+
+ 
