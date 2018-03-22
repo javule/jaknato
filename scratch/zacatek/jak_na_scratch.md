@@ -14,7 +14,7 @@ U předškoláků a dětí z první třídy bych doporučovala zaměřit se spí
 Současní třeťáci jsou tak akorát zralí na to, ponořit se do programování ve Scratchi. I když ještě nemají potřebnou matematickou výbavu. Chybí hlavně záporná čísla, soustava souřadnic a úhly. Nedá se ale říct, že by některá z těchto věcí byla překážkou v programování, je jen třeba se těmto okolnostem přizpůsobit.    
 Za sebe mohu říct, že je mi naopak potěšením vidět, jak některé děti prahnou po tom poznat, jak se pracuje třeba s úhly, protože to právě nutně potřebují, aby se jim správně odrážel balónek..
 
-Scratch vydrží dětem minimálně na dva roky. Dovedu si představit i na 5 let.
+Scratch vydrží dětem minimálně na dva roky. Dovedu si představit, že ho budou používat celou základní školu.
 Ve chvíli kdy jim začne být ve Scratchi těsno, doporučuji přejít na [Snap!](https://snap.berkeley.edu/).  
  
 
