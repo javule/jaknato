@@ -39,19 +39,21 @@ Hloubavci by mohli namítnout, že i tenhle problém se dá dělit...
 Nejprve si vyberte postavičku, která se bude po scéně pohybovat. Mel by to být nějaký pták, motýl, moucha, zvíře.. Zkrátka něco, co může mávat křídly nebo packama a po zmáčknutí vydávat zvuky.
 
 Zopakujeme si, jak přidat postavě zvuk:
-**Vybereme postavu, které chceme přidávat zvuk**, vlezeme do záložky Zvuky a pomocí ikon ![](pridat_zvuk.png) vyberme buď zvuk už hotový z knihovny, nebo si vytvoříme vlastní. 
+**Vybereme postavu, které chceme přidávat zvuk**, vlezeme do záložky *Zvuky* a pomocí ikon ![](pridat_zvuk.png) vyberme buď zvuk už hotový z knihovny, nebo si vytvoříme vlastní. 
 
 <div class="poznamka"><b>Poznámka:</b>
 Při nahrávání vlastního zvuku bude pravděpodobně vhodné zvuk oříznout - ustřihnout ticho na začátku a ticho na konci. To se dělá tak, že označite v editoru oblast, kterou byste chtěli smazat a v nabídce *Upravit* vyberete možnost *smaž*.
 
-[](uprav_zvuk.png)
+![](uprav_zvuk.png)
 
 Zkuste si i jiné úpravy a efekty. Tu část, zvuku, kterou chcete upravovat musíte nejprve označit mýší.
 **Zvuk, který jste vytvořili si pojmenujte tak, ať víte o který zvuk jde. Předejdete tak mnoha chybám.**
 
-[](zvuk_jmeno.png)
+![](zvuk_jmeno.png)
 
 <div>
+
+
 Událost  <sb>po kliknutí na mě</sb> bude spouštěčem.
 
 
