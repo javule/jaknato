@@ -47,13 +47,13 @@ Při nahrávání vlastního zvuku bude pravděpodobně vhodné zvuk oříznout 
 
 ![](uprav_zvuk.png)
 
-Zkuste si i jiné úpravy a efekty. Tu část, zvuku, kterou chcete upravovat musíte nejprve označit mýší.
+Zkuste si i jiné úpravy a efekty. Tu část zvuku, kterou chcete upravovat, musíte nejprve označit mýší.
 
-**Zvuk, který jste vytvořili si smysluplně pojmenujte tak, ať víte o který zvuk jde. Předejdete tak mnoha chybám a zdržení.**
+**Zvuk, který jste vytvořili si smysluplně pojmenujte tak, ať víte o který zvuk jde. Předejdete tak mnoha chybám a zdržením.**
 
 ![](zvuk_jmeno.png)
 
-<div>
+</div>
 
 
 Zvuk přidaný postavě už můžeme použít v programu:  <sb>přehraj zvuk [cheche v] </sb> .
@@ -114,6 +114,7 @@ Zastavte program, v záložce ![](/scratch/images/pohyb.png) najdete příkaz <s
 
 Abychom byli spokojení, hodilo by se, aby postava po spuštění programu vylétala vždy ze stejného místa. To zajistí jedno <sb>skoč na pozici x: (0) y: (0)</sb> na začátku programu.    
 Zbývá už jen zajistit, že když postava dojede ke kraji scény, otočí se a jede/letí zpět. I na to se pamatovalo a ve Scratchi na to máme příkaz <sb>když narazíšna okraj, odraž se</sb>
+
 Výsledek:
 
 ``` blocks
