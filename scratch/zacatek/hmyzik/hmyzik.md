@@ -3,8 +3,8 @@
 ---
 ### Co se naučíme:
 
-* Hlavně se naučíme se používat <sb>opakuj dokola</sb>,
-* <sb>jdi na [náhodná pozice v]</sb>,<sb>když narazíš na okraj, odraž se</sb>
+* Hlavně se naučíme se používat <sb>opakuj dokola</sb>
+* <sb>jdi na [náhodná pozice v]</sb>, <sb>když narazíš na okraj, odraž se</sb>
 * upravovat namalovaný kostým obrázku
 
 ---
@@ -22,5 +22,7 @@ Cílem dnešního projektu je vyrobit hru, kde se po obrazovce sem a tam prohán
 
 
 <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/211925128/?autostart=false" frameborder="0" allowfullscreen></iframe>
-    
+
+
+
 
