@@ -46,8 +46,11 @@ Při nahrávání vlastního zvuku bude pravděpodobně vhodné zvuk oříznout 
 
 [](uprav_zvuk.png)
 
-Zkuste si i jiné úpravy zvuku. Tu část, zvuku, kterou chcete upravovat musíte nejprve označit mýší. 
+Zkuste si i jiné úpravy a efekty. Tu část, zvuku, kterou chcete upravovat musíte nejprve označit mýší.
 **Zvuk, který jste vytvořili si pojmenujte tak, ať víte o který zvuk jde. Předejdete tak mnoha chybám.**
+
+[](zvuk_jmeno.png)
+
 <div>
 Událost  <sb>po kliknutí na mě</sb> bude spouštěčem.
 
