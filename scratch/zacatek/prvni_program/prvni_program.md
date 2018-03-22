@@ -49,7 +49,7 @@ Všechny příkazy, které postava zná, najdeme v záložce *Scénáře* uprost
 ![](scenare.png)
 
  
-<div class="poznamka"><b>Poznámka:</b> Stále dokola budu v obrázcích i textu upozorňovat na to, že <b>před tím, než začneme upravovat kód, kostýmy, či zvuky, je třeba vybrat v ohrádce postavu (pozadí), které se to týká</b>. Začátečníkůmu se velmi často stává, že napíší program nebo přidají zvuky do jiné postavy, než zamýšleli.<br/> Až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.
+<div class="poznamka"><b>Poznámka:</b> Stále dokola budu v obrázcích i textu upozorňovat na to, že <b>před tím, než začneme upravovat kód, kostýmy, či zvuky, je třeba vybrat v ohrádce postavu (pozadí), které se to týká</b>. Začátečníkům se velmi často stává, že napíší program nebo přidají zvuky do jiné postavy, než zamýšleli.<br/> <b>Až ve vás hrkne, že vám zmizel program, zkontrolujte nejdřív, že se nacházíte v postavě, ve které jste ho psali.</b>
 </div>
 
 Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme je za sebe v pořadí, ve kterém chceme, aby byly vykonávány a spojujeme k sobě jako puzzle.    
@@ -65,9 +65,9 @@ Pokud se nám vybraný příkaz nehodí, smažeme ho tak, že ho prostě vrátí
 </div>
 
 ### Události
-To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší.. Rozklikněte záložku ![](/scratch/images/udalosti.png) a uvidíte, které události Scratch nabízí.
+To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší... Rozklikněte záložku ![](/scratch/images/udalosti.png) a uvidíte, které události Scratch nabízí.
 
-Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
+Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb>. 
 
 Události mají tvar hnědé čepice, která se z vrchu přilepí k sekvenci příkazů a určí tím, kdy má být vykonávána.
 
