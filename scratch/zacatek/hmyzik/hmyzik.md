@@ -60,13 +60,13 @@ Zvuk přidaný postavě už můžeme použít v programu:  <sb>přehraj zvuk [ch
 
 Událost která spustí kód bude <sb>po kliknutí na mě </sb>.
 
-Zbývá už jen skákání na náhodné místo na scéně. Na to má Scratch už pro nás připravený příkaz. Je ale důmyslně schovaný očím nezasveceného pozorovatele. Najdete ho v záložce ![](/scratch/images/pohyb.png), ale pod příkazem <sb>jdi na [ukazatel myši V]</sb>. Vyberte tento příkaz, jen ho pomocí čerého trojúhelníčku vpravo přeměňte na <sb>jdi na [náhodná pozice V]</sb>. 
+Zbývá už jen skákání na náhodné místo na scéně. Na to má Scratch už pro nás připravený příkaz. Je ale důmyslně schovaný očím nezasveceného pozorovatele. Najdete ho v záložce ![](/scratch/images/pohyb.png), ale pod příkazem <sb>jdi na [ukazatel myši v]</sb>. Vyberte tento příkaz, jen ho pomocí čerého trojúhelníčku vpravo přeměňte na <sb>jdi na [náhodná pozice v]</sb>. 
 
 Máme vše co potřebujeme a výsledek bude vypadat takto:
 ``` blocks
 po kliknutí na mě
 přehraj zvuk [cheche v]
-jdi na [náhodná pozice V]
+jdi na [náhodná pozice v]
 ```
 
 Program si teď můžete ozkoušet.
@@ -96,7 +96,7 @@ posuň se o (10) kroků
 Je to lepší, ale postava je jen o pár kroků dál a programátory už bolí ruka. 
 
 Aby programátoři nemuseli pořád dokola opisovat to samé, existuje v programovacích jazycích příkaz `opakuj`. Ve Scratchi vypadá takto <sb>opakuj dokola</sb> nebo třeba tak <sb>opakuj () krát</sb>. Najdeme je v záložce ![](/scratch/images/ovladani.png).    
-Všechno, co napíšeme dovnitř do podkovy se bude opakovat. Pokud použijeme první příkaz, bude se opakovat do nekonečna, pokud druhý, vše uvnitř se zopakuje tolikrát, kolikrát nastavíme v argumentu příkazu.
+Všechno, co napíšeme dovnitř do podkovy se bude opakovat. Pokud použijeme první příkaz, bude se opakovat do nekonečna, pokud druhý, vše uvnitř podkovy se zopakuje tolikrát, kolikrát nastavíme v argumentu příkazu.
 
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Podrobnější nápady, jak trénovat s dětmi opakování s počítačem, ale hlavně bez najdete [zde](opakovani/opakovani.html)
 </div>
@@ -105,7 +105,7 @@ Protože pohybovat se chceme po scéně stále, použijeme <sb>opakuj dokola</sb
 ``` blocks
 po kliknutí na @greenFlag
 natoč se směrem (90 v)
-<sb>opakuj dokola</sb>
+opakuj dokola
 posuň se o (10) kroků
 ```
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Ti rychlejší z vás už určitě stihli program spustit a postavička jim během mrknutí oka zmizela někam za scénu. Vytáhnout jí zpátky dá někdy zabrat. 
@@ -113,7 +113,7 @@ Zastavte program, v záložce ![](/scratch/images/pohyb.png) najdete příkaz <s
 </div>
 
 Abychom byli spokojení, hodilo by se, aby postava po spuštění programu vylétala vždy ze stejného místa. To zajistí jedno <sb>skoč na pozici x: (0) y: (0)</sb> na začátku programu.    
-Zbývá už jen zajistit, že když postava dojede ke kraji scény, otočí se a jede/letí zpět. I na to se pamatovalo a ve Scratchi na to máme příkaz <sb>když narazíšna okraj, odraž se</sb>
+Zbývá už jen zajistit, že když postava dojede ke kraji scény, otočí se a jede/letí zpět. I na to se pamatovalo a ve Scratchi na to máme příkaz <sb>když narazíš na okraj, odraž se</sb>
 
 Výsledek:
 
@@ -121,9 +121,9 @@ Výsledek:
 po kliknutí na @greenFlag
 natoč se směrem (90 v)
 skoč na pozici x: (0) y: (0)
-<sb>opakuj dokola</sb>
+opakuj dokola
 posuň se o (10) kroků
-když narazíšna okraj, odraž se
+když narazíš na okraj, odraž se
 end
 ```
 
