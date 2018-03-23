@@ -13,14 +13,14 @@ Cílovou skupinou jsou lektoři i rodiče, kteří chtějí rozšířit svým d�
 
 [Pro jak staré děti je vhodný Scratch] (/zacatek/pro_jake_deti.md)
 
-#### [První program] (/zacatek/prvni_program/prvni_program.html)
+#### [První program](/zacatek/prvni_program/prvni_program.html)
 Návod pro úplné začátečníky, jak se orientovat ve Scratchi. Výsledkem je postavička, která běhá podle šipek na klávesnici a mrká
 
 
 !!! Tady budou prográmky - hry a projektíky bez opakování, bez podmínek
 !!! Natrénovat souřadnicový systém a převlékání kostýmů
 
-#### [Hmyzík] (/zacatek/hmyzik/hmyzik.html) 
+#### [Hmyzík](/scratch/zacatek/hmyzik/hmyzik.html) 
 
 !!! Tady budou programky s uplně jednoduchým opakováním
 
