@@ -4,16 +4,16 @@
 ### Co se naučíme:
 
 * Naučíme se, k čemu se nám hodí bloky
-* Příkazy <sb>jdi na [náhodná pozice v]</sb>
+* Příkazy <sb>go to [náhodná pozice v]</sb>
 * Namalovat si vlastní animaci
-* Pracovat s <sb>otiskni se</sb> a <sb>smaž</sb>
+* Pracovat s <sb>stamp</sb> a <sb>clear</sb>
 
 ---
 
 ### Co bychom už měli umět:
 
 * Orientovat se ve Scratch editoru
-* Používat spouštěcí události <sb>po kliknutí na mě</sb>, <sb>po kliknutí na @greenFlag</sb> 
+* Používat spouštěcí události <sb>when this sprite clicked</sb>, <sb>when @greenFlag clicked</sb> 
 * Měnit kostým
 
 ---
@@ -27,8 +27,8 @@ V tomto projektu chceme naprogramovat krtka, který postupně vylézá ze země.
 2. Namalujeme si několik kostýmů, z kterých pak vytvoříme animaci klubajícího se krtka.
 3. Krtkem skočíme na náhodné místo a necháme ho vylézt ze země
 4. Po kliknutí skočí krtek jinam a opět vyleze ze země ven 
-6. Doprogramujeme "otiskávání hromádek" pomocí příkazu <sb>otiskni se</sb> 
-7. Po spuštění programu musíme smazat krtince z minula příkazem <sb>smaž</sb>  
+6. Doprogramujeme "otiskávání hromádek" pomocí příkazu <sb>stamp</sb> 
+7. Po spuštění programu musíme smazat krtince z minula příkazem <sb>clear</sb>  
 
 
 
@@ -45,27 +45,27 @@ Velice důležité je, aby měly všechny kostýmy střed na stejném místě. T
 
 
 ## 3. Krtek leze ze země
-Střídáním kostýmů vytvoříme animaci. Na náhodné místo krtka umístíme příkazem <sb>jdi na [náhodná pozice v]</sb>
+Střídáním kostýmů vytvoříme animaci. Na náhodné místo krtka umístíme příkazem <sb>go to [náhodná pozice v]</sb>
 
 ``` blocks
-    po kliknutí na @greenFlag
-    jdi na [náhodná pozice v]
-    nastav kostým na [malý]
-    čekej (0.2) sekund
-    nastav kostým na [větší]
-    čekej (0.2) sekund
-    nastav kostým na [velký]
+    when @greenFlag clicked
+    go to [náhodná pozice v]
+    switch costume to [malý]
+    wait (0.2) secs
+    switch costume to [větší]
+    wait (0.2) secs
+    switch costume to [velký]
 
 ```
 ## 4. Po kliknutí skočí krtek jinam a tam vyleze
 ``` blocks
-    po kliknutí na mě
-    jdi na [náhodná pozice v]
-    nastav kostým na [malý]
-    čekej (0.2) sekund
-    nastav kostým na [větší]
-    čekej (0.2) sekund
-    nastav kostým na [velký]
+    when this sprite clicked
+    go to [náhodná pozice v]
+    switch costume to [malý]
+    wait (0.2) secs
+    switch costume to [větší]
+    wait (0.2) secs
+    switch costume to [velký]
 
 ```
 

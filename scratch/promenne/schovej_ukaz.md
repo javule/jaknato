@@ -4,9 +4,9 @@
 
 1. Co se stane po spuštění? 
 <code class="language-blocks">
-po kliknutí na @greenFlag
-nastav [jmeno_hrace v] na [Karel]
-změň [jmeno_hrace v] o (1)
+when @greenFlag clicked
+set [jmeno_hrace v] to [Karel]
+change [jmeno_hrace v] by (1)
 </code>
 
 
@@ -14,7 +14,7 @@ změň [jmeno_hrace v] o (1)
 </p></details>
 
 ```blocks
-po kliknutí na @greenFlag
-nastav [jmeno_hrace v] na [Karel]
-změň [jmeno_hrace v] o (1)
+when @greenFlag clicked
+set [jmeno_hrace v] ntoa [Karel]
+change [jmeno_hrace v] by (1)
 ```

@@ -7,7 +7,7 @@ Tady byste měli začít, pokud o Scratchi netušíte vůbec nic
 
 * seznámíme se s jednotlivými částmi editoru
 * pozadí, postavy, scénáře 
-* události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
+* události <sb>when this sprite clicked</sb>, <sb>when [ mezera v] key pressed</sb>, <sb>when @greenFlag clicked</sb> 
 * kostýmy, zvuky
 
 ---
@@ -56,7 +56,7 @@ Příkazy ze složek vybíráme myší a přetahujeme na plochu vpravo. Řadíme
 Pokud se nám vybraný příkaz nehodí, smažeme ho tak, že ho prostě vrátíme myší zpět do nabídky příkazů.
 
 <div class="poznamka" markdown="1">
-:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>posuň se o (10) kroků</sb>, <sb> říkej [Hello] příštích (2) sekund</sb>, <sb>čekej (1) sekund</sb>,  <sb>skryj se</sb>, <sb>ukaž se</sb>. Příkaz přetáhněte myší do prostoru pro scénáře a dvojklikem na příkaz ho spusťte.
+:bulb: **Úkol 3. Najděte v nabídce příkazů následující příkazy: <sb>move (10) steps</sb>, <sb> say [Hello] for (2) secs</sb>, <sb>wait (1) secs</sb>,  <sb>hide</sb>, <sb>show</sb>. Příkaz přetáhněte myší do prostoru pro scénáře a dvojklikem na příkaz ho spusťte.
 <br/>Zkoušejte spojovat příkazy za sebe a dvojklikem spouštět.**
 </div>
 
@@ -67,7 +67,7 @@ Pokud se nám vybraný příkaz nehodí, smažeme ho tak, že ho prostě vrátí
 ### Události
 To, kdy bude který příkaz či sekvence příkazů spuštěna řídí *události*. Událostí je třeba spuštění programu, zmáčknutí klávesy, kliknutí myší... Rozklikněte záložku ![](/scratch/images/udalosti.png) a uvidíte, které události Scratch nabízí.
 
-Zatím nám budou bohatě stačit první 3: <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb>. 
+Zatím nám budou bohatě stačit první 3: <sb>when this sprite clicked</sb>, <sb>when [ mezera v] key pressed</sb>, <sb>when @greenFlag clicked</sb>. 
 
 Události mají tvar hnědé čepice, která se z vrchu přilepí k sekvenci příkazů a určí tím, kdy má být vykonávána.
 
@@ -75,8 +75,8 @@ Tento kus kódu říká postavě, že pokaždé, když zmáčkneme mezeru, se m�
 
 ```blocks
 
-po stisku klávesy [ mezera v]
-posuň se o (10) kroků
+when [ mezera v] key pressed
+move (10) steps
 ```
 ### První program
 
@@ -91,37 +91,37 @@ posuň se o (10) kroků
 
 Z minulých úkolů už máme nastavené krásné pozadí a dvě postavy na scéně. 
 #### Pozdrav   
-**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](/scratch/images/vzhled.png) příkaz <sb> říkej [Hello] příštích (2) sekund</sb>. Příkaz upravíme na <sb> říkej [Ahoj] příštích (5) sekund</sb>.    
-Ze záložky ![](/scratch/images/udalosti.png) vybereme událost <sb>po kliknutí na @greenFlag</sb> a přilepíme k předchozímu příkazu.    
+**Vybereme postavu kocoura** a na plochu pro scénáře přetáhneme ze záložky ![](/scratch/images/vzhled.png) příkaz <sb> say [Hello] for (2) secs</sb>. Příkaz upravíme na <sb> say [Ahoj] for (5) secs</sb>.    
+Ze záložky ![](/scratch/images/udalosti.png) vybereme událost <sb>when @greenFlag clicked</sb> a přilepíme k předchozímu příkazu.    
 <code class="language-blocks">
-po kliknutí na @greenFlag
-říkej [Ahoj] příštích (5) sekund
+when @greenFlag clicked
+say [Ahoj] for (5) secs
 </code>
 A máme kocoura, který nás po spuštění programu vlaječkou pozdraví!
 
 #### Pohyb
-Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>natoč se směrem (90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>posuň se o (10) kroků</sb>. K tomu všemu přilepíme čepici <sb>po stisku klávesy [ šipka vpravo v]</sb>. 
+Pokud chceme, aby šel kocour doprava, nejprve ho tam musíme nasměrovat přikazem <sb>point in direction(90 v)</sb>. Teprve potom tam kocoura můžeme poslat: <sb>move (10) steps</sb>. K tomu všemu přilepíme čepici <sb>when [ šipka vpravo v] key pressed</sb>. 
 <code class="language-blocks">
-po stisku klávesy [ šipka vpravo v]
-natoč se směrem (90 v)
-posuň se o (10) kroků
+when [ šipka vpravo v] key pressed
+point in direction(90 v)
+move (10) steps
 </code>
 A Skrečák už se sune doprava.
 
 Stejným způsobem uděláme i pohyb vlevo:
 <code class="language-blocks">
-po stisku klávesy [ šipka vlevo v]
-natoč se směrem (-90 v)
-posuň se o (10) kroků
+when [ šipka vlevo v] key pressed
+point in direction(-90 v)
+move (10) steps
 </code>
 Program vyzkoušejte. Zmáčkněte zelenou vlajku a zkoušejte mačkat klávesy šipka vpravo a vlevo.    
 Program vypadá vcelku slušně, jedinou vadou na kráse je, že doleva nám kocour běhá jaksi po hlavě..
 
-Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>nastav způsob otáčení na[jen vlevo-vpravo v]</sb>. Příkaz přidáme k události <sb>po kliknutí na @greenFlag</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. 
+Každé postavě můžeme nastavit způsob, jakým se má otáčet. Dokola jako korouhvička, jen doprava/doleva a nebo vůbec. Správné otáčení Skrečáka nám zajistí příkaz <sb>set rotation style[jen vlevo-vpravo v]</sb>. Příkaz přidáme k události <sb>when @greenFlag clicked</sb>, aby se postavě nastavila tato vlastnost hned po startu programu. 
 <code class="language-blocks">
-po kliknutí na @greenFlag
-nastav způsob otáčení na[jen vlevo-vpravo v]
-říkej [Ahoj] příštích (5) sekund
+when @greenFlag clicked
+set rotation style[jen vlevo-vpravo v]
+say [Ahoj] for (5) secs
 </code>  
 Až spustíte program vlajkou příště, kocour už se bude chovat tak, jak má. 
 </div>
@@ -161,26 +161,26 @@ Kostýmy se mažou a kopírují po stisknutí pravého tlačítka myši nad kost
 
  Vezmeme projekt, na kterém jsme pracovali v minulých cvičeních a vylepšíme ho o mrkání.
 
- Událostí, na kterou bude postava nově reagovat je <sb>po kliknutí na mě</sb>. Opět najdeme ve složce ![](/scratch/images/udalosti.png).
+ Událostí, na kterou bude postava nově reagovat je <sb>when this sprite clicked</sb>. Opět najdeme ve složce ![](/scratch/images/udalosti.png).
 
  Mrkání zařídíme tak, že změníme postavě na chviličku kostým. Místo kostýmu s otevřenýma očima bude mít kostým s okem zavřeným a za moment zas vrátíme kostým původní.
 
-Změnu kostýmu provede příkaz <sb>změň kostým na [ v]</sb>
-ze záložky ![](/scratch/images/vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>čekej () sekund</sb>. Pak postavě vrátíme její původní kostým:
+Změnu kostýmu provede příkaz <sb>switch costume to [ v]</sb>
+ze záložky ![](/scratch/images/vzhled.png). Z nabídky kostýmů v příkazu vybereme ten se zavřeným okem. Pak musíme chvilku počkat, aby si lidské oko vůbec stihlo všimnout, že se změnil kostým. To zajistí příkaz <sb>wait () secs</sb>. Pak postavě vrátíme její původní kostým:
 <code class="language-blocks">
-po kliknutí na mě
-změň kostým na [oko v]
-čekej (0.2) sekund
-změň kostým na [kostým1 v]
+when this sprite clicked
+switch costume to [oko v]
+wait (0.2) secs
+switch costume to [kostým1 v]
 </code>
     
 Ještě by to chtělo se ujistit, že program bude startovat s kocourem s oběma očima otevřenýma.    
-Upravíme kód v události <sb>po kliknutí na @greenFlag</sb>:
+Upravíme kód v události <sb>when @greenFlag clicked</sb>:
 <code class="language-blocks">
-po kliknutí na @greenFlag
-nastav způsob otáčení na[jen vlevo-vpravo v]
-změň kostým na [kostým1 v]
-říkej [Ahoj] příštích (5) sekund
+when @greenFlag clicked
+set rotation style[jen vlevo-vpravo v]
+switch costume to [kostým1 v]
+say [Ahoj] for (5) secs
 </code>  
 Program ozkoušejte.
  </div>
@@ -211,27 +211,27 @@ Zvuky opět můžeme, stejně jako kostýmy, přidávat z knihovny hotových zvu
 [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/210996855/)
 
 Tentokrát bude úprava kódu minulého programu velmi jednoduchá. V záložce ![](/scratch/images/zvuky.png) vybereme 
-příkaz <sb>přehraj zvuk [mňau v]</sb> a připojíme ho pod událost <sb>po kliknutí na mě</sb>.    
+příkaz <sb>play sound [mňau v]</sb> a připojíme ho pod událost <sb>when this sprite clicked</sb>.    
 Upravený kód bude vypadat následovně:
 
 <code class="language-blocks">
-po kliknutí na mě
-přehraj zvuk [mňau v]
-změň kostým na [oko v]
-čekej (0.2) sekund
-změň kostým na [kostým1 v]
+when this sprite clicked
+play sound [mňau v]
+switch costume to [oko v]
+wait (0.2) secs
+switch costume to [kostým1 v]
 </code>
 
 </div>
 
-Asi jste si při zkoušení programu všimli, že záložka ![](/scratch/images/zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>přehraj zvuk [mňau v]</sb> a <sb>hraj zvuk [mňau v] až do konce</sb>.
+Asi jste si při zkoušení programu všimli, že záložka ![](/scratch/images/zvuky.png) nabízí na přehrávání zvuku příkazy dva: <sb>play sound [mňau v]</sb> a <sb>play sound [mňau v] until done</sb>.
 
 Rozdíl mezi nimi je následující:
 
-Příkaz <sb>hraj zvuk [mňau v] až do konce</sb>:    
+Příkaz <sb>play sound [mňau v] until done</sb>:    
 Ve chvíli, kdy program doběhne k tomuto příkazu, se spustí přehrávání vybraného zvuku a program pokračuje dalším příkazem až ve chvíli, kdy zvuk dohraje
 
-Příkaz <sb>přehraj zvuk [mňau v]</sb>:    
+Příkaz <sb>play sound [mňau v]</sb>:    
 Program doběhne k tomuto příkazu, spustí přehrávání zvuku a zatímco zvuk hraje, program pokračuje dal.
 
 

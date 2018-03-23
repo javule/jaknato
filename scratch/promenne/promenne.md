@@ -46,20 +46,20 @@ Proměnné ve Scratchi nejsou typové, vkládat do nich můžeme jak text, tak �
 
 Nastavení hodnoty proměnné a její čtení:
 ```blocks
-po kliknutí na @greenFlag
-ptej se [Jak se jmenuješ] a čekej
-nastav [jmeno_hrace v] na(odpověď)
-řekni(jmeno_hrace)
+when @greenFlag clicked
+ask [Jak se jmenuješ] and wait
+set [jmeno_hrace v] to(odpověď)
+say(jmeno_hrace)
 ```
 nebo např.:
 
 ```blocks
-po kliknutí na @greenFlag
-ptej se [Jak se jmenuješ?] a čekej
-nastav [jmeno_hrace v] na(odpověď)
-ptej se (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) a čekej
-nastav [osloveni v] na(odpověď)
-řekni(spoj[Ahoj ](osloveni))
+when @greenFlag clicked
+ask [Jak se jmenuješ?] and wait
+set [jmeno_hrace v] to(odpověď)
+ask (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) and wait
+set [osloveni v] to(odpověď)
+say(spoj[Ahoj ](osloveni))
 ```
 Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
 
@@ -67,17 +67,17 @@ Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu p
 
 Na toto chování (mimochodem, stejně funguje i seznam) je třeba si dát pozor a v případě potřeby proměnné po startu vyčistit:
 ```blocks
-po kliknutí na @greenFlag
-nastav [jmeno_hrace v] na []
-nastav [body v] na (0)
+when @greenFlag clicked
+set [jmeno_hrace v] to []
+set [body v] to (0)
 ```
  
 > ### Tipy na objevování:
 >> **Co se stane po spuštění?**
 >>```blocks
->>po kliknutí na @greenFlag
->>nastav [jmeno_hrace v] na [Karel]
->>změň [jmeno_hrace v] o (1)
+>>when @greenFlag clicked
+>>set [jmeno_hrace v] to [Karel]
+>>change [jmeno_hrace v] by (1)
 >>```  
 >><details><summary>Řešení</summary><p markdown="1">
 >>Nastane chyba, v proměnné se objeví "NaN" (not a number)
@@ -85,10 +85,10 @@ nastav [body v] na (0)
 >
 >> **Co bude v proměnné <sb>(jmeno_hrace)</sb>?**
 >>```blocks
->>po kliknutí na @greenFlag
->>ptej se [Jak se jmenuješ?] a čekej
->>ptej se [Kolik je ti roků?] a čekej
->>nastav [jmeno_hrace v] na(odpověď)
+>>when @greenFlag clicked
+>>ask [Jak se jmenuješ?] and wait
+>>ask [Kolik je ti roků?] and wait
+>>set [jmeno_hrace v] to(odpověď)
 >>```
 >><details><summary>Řešení</summary><p markdown="1">
 >>V proměnné <sb>(jmeno_hrace)</sb> bude jeho věk
@@ -100,16 +100,16 @@ nastav [body v] na (0)
 >>Měníme hodnotu proměnné <sb>(a)</sb> a <sb>(b)</sb> za pomoci proměnné <sb>(pom)</sb>.
 >>
 >><code class="language-blocks">
->>nastav [pom v] na(a)
->>nastav [a v] na(b)
->>nastav [b v] na(pom)
+>>set [pom v] to(a)
+>>set [a v] to(b)
+>>set [b v] to(pom)
 >></code>
 >></p>
 >></details>  
 >   
 
 ## Zkušenosti s výukou
-Doporučuji ujistit se, že děti vnímají rozdíl mezi  <sb>nastav [ v] na []</sb> a <sb>změň [ v] o ()</sb>. 
+Doporučuji ujistit se, že děti vnímají rozdíl mezi  <sb>set [ v] to []</sb> a <sb>změň [ v] o ()</sb>. 
 
 Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. <sb>změň[pocet_zivotu] o (-1)</sb>
 

@@ -3,15 +3,15 @@
 ---
 ### Co se naučíme:
 
-* Hlavně se naučíme používat <sb>opakuj dokola</sb>
-* Příkazy <sb>jdi na [náhodná pozice v]</sb>, <sb>když narazíš na okraj, odraž se</sb>
+* Hlavně se naučíme používat <sb>forever</sb>
+* Příkazy <sb>go to [náhodná pozice v]</sb>, <sb>if on edge, bounce</sb>
 
 ---
 
 ### Co bychom už měli umět:
 
 * Orientovat se ve Scratch editoru
-* Používat spouštěcí události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
+* Používat spouštěcí události <sb>when this sprite clicked</sb>, <sb>when [ mezera v] key clicked</sb>, <sb>when @greenFlag clicked</sb> 
 * Přidat zvuk
 * Měnit kostým
 
@@ -56,17 +56,17 @@ Zkuste si i jiné úpravy a efekty. Tu část zvuku, kterou chcete upravovat, mu
 </div>
 
 
-Zvuk přidaný postavě už můžeme použít v programu:  <sb>přehraj zvuk [cheche v] </sb> .
+Zvuk přidaný postavě už můžeme použít v programu:  <sb>play sound [cheche v] </sb> .
 
-Událost která spustí kód bude <sb>po kliknutí na mě </sb>.
+Událost která spustí kód bude <sb>when this sprite clicked </sb>.
 
-Zbývá už jen skákání na náhodné místo na scéně. Na to má Scratch už pro nás připravený příkaz. Je ale důmyslně schovaný očím nezasvěceného pozorovatele. Najdete ho v záložce ![](/scratch/images/pohyb.png), ale pod příkazem <sb>jdi na [ukazatel myši v]</sb>. Vyberte tento příkaz, jen ho pomocí černého trojúhelníčku vpravo přeměňte na <sb>jdi na [náhodná pozice v]</sb>. 
+Zbývá už jen skákání na náhodné místo na scéně. Na to má Scratch už pro nás připravený příkaz. Je ale důmyslně schovaný očím nezasvěceného pozorovatele. Najdete ho v záložce ![](/scratch/images/pohyb.png), ale pod příkazem <sb>go to [ukazatel myši v]</sb>. Vyberte tento příkaz, jen ho pomocí černého trojúhelníčku vpravo přeměňte na <sb>go to [náhodná pozice v]</sb>. 
 
 Máme vše co potřebujeme a výsledek bude vypadat takto:
 ``` blocks
-po kliknutí na mě
-přehraj zvuk [cheche v]
-jdi na [náhodná pozice v]
+when this sprite clicked
+play sound [cheche v]
+go to [náhodná pozice v]
 ```
 
 Program si teď můžete ozkoušet.
@@ -77,49 +77,49 @@ Otázka dne zní: "Jak naučit postavičku, aby běhala bez kláves sama?"
 
 Určitě bychom už uměli vytvořit program, který po spuštění posune postavu o několik kroků:
 ``` blocks
-po kliknutí na @greenFlag
-posuň se o (10) kroků
+when @greenFlag clicked
+move (10) steps
 ```
 Ale deset kroků nám nestačí, pro začátek bychom chtěli, aby postava došla alespoň ke kraji scény. Co takhle?
 ``` blocks
-po kliknutí na @greenFlag
-posuň se o (10) kroků
-posuň se o (10) kroků
-posuň se o (10) kroků
-posuň se o (10) kroků
-posuň se o (10) kroků
-posuň se o (10) kroků
+when @greenFlag clicked
+move (10) steps
+move (10) steps
+move (10) steps
+move (10) steps
+move (10) steps
+move (10) steps
 ```
 
 Je to lepší, ale postava je jen o pár kroků dál a programátory už bolí ruka. 
 
-Abychom nemuseli pořád dokola opisovat to samé, existuje v programovacích jazycích příkaz `opakuj`. Ve Scratchi vypadá takto <sb>opakuj dokola</sb> nebo třeba tak <sb>opakuj () krát</sb>. Najdeme je v záložce ![](/scratch/images/ovladani.png).    
+Abychom nemuseli pořád dokola opisovat to samé, existuje v programovacích jazycích příkaz `opakuj`. Ve Scratchi vypadá takto <sb>forever</sb> nebo třeba tak <sb>repeat()</sb>. Najdeme je v záložce ![](/scratch/images/ovladani.png).    
 Všechno, co napíšeme dovnitř do podkovy se bude opakovat. Pokud použijeme první příkaz, bude se opakovat do nekonečna, pokud druhý, vše uvnitř podkovy se zopakuje tolikrát, kolikrát nastavíme v argumentu příkazu.
 
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Podrobnější nápady, jak trénovat s dětmi opakování s počítačem, ale hlavně bez najdete [zde](opakovani/opakovani.html)
 </div>
 
-Protože pohybovat se chceme po scéně stále, použijeme <sb>opakuj dokola</sb>:
+Protože pohybovat se chceme po scéně stále, použijeme <sb>forever</sb>:
 ``` blocks
-po kliknutí na @greenFlag
-opakuj dokola
-posuň se o (10) kroků
+when @greenFlag clicked
+forever
+move (10) steps
 ```
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Ti rychlejší z vás už určitě stihli program spustit a postavička jim během mrknutí oka zmizela někam za scénu. Vytáhnout jí zpátky dá někdy zabrat. 
-Zastavte program, v záložce ![](/scratch/images/pohyb.png) najdete příkaz <sb>skoč na pozici x: () y: ()</sb>. Příkaz nastavte na  <sb>skoč na pozici x: (0) y: (0)</sb> a dvakrát na něj poklepejte myší. Postava se vám vrátí doprostřed scény.
+Zastavte program, v záložce ![](/scratch/images/pohyb.png) najdete příkaz <sb>go to x: () y: ()</sb>. Příkaz nastavte na  <sb>go to x: (0) y: (0)</sb> a dvakrát na něj poklepejte myší. Postava se vám vrátí doprostřed scény.
 </div>
 
-Abychom byli spokojení, hodilo by se, aby postava po spuštění programu vylétala vždy ze stejného místa. To zajistí jedno <sb>skoč na pozici x: (0) y: (0)</sb> na začátku programu.    
-Zbývá už jen zajistit, že když postava dojede ke kraji scény, otočí se a jede/letí zpět. I na to se pamatovalo a ve Scratchi na to máme příkaz <sb>když narazíš na okraj, odraž se</sb>
+Abychom byli spokojení, hodilo by se, aby postava po spuštění programu vylétala vždy ze stejného místa. To zajistí jedno <sb>go to x: (0) y: (0)</sb> na začátku programu.    
+Zbývá už jen zajistit, že když postava dojede ke kraji scény, otočí se a jede/letí zpět. I na to se pamatovalo a ve Scratchi na to máme příkaz <sb>if on edge, bounce</sb>
 
 Výsledek:
 
 ``` blocks
-po kliknutí na @greenFlag
-skoč na pozici x: (0) y: (0)
-opakuj dokola
-posuň se o (10) kroků
-když narazíš na okraj, odraž se
+when @greenFlag clicked
+go to x: (0) y: (0)
+forever
+move (10) steps
+if on edge, bounce
 ```
 <div class="poznamka" markdown="1"><b>Úkoly:</b>
 
@@ -127,7 +127,7 @@ když narazíš na okraj, odraž se
 
 :bulb: Upravte si rychlost postavy podle vašich představ
 
-:bulb: Přidejte animaci postavy (mávání křídel, pohyb nohou...) Použijte k tomu příkaz <sb>další kostým</sb> a <sb>čekej()sekund</sb>
+:bulb: Přidejte animaci postavy (mávání křídel, pohyb nohou...) Použijte k tomu příkaz <sb>další kostým</sb> a <sb>wait()secs</sb>
 
 Pokud se nedaří, nakounkěte do [ukázkového programu](https://scratch.mit.edu/projects/211925128/)
 
