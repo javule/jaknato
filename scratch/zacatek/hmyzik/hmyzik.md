@@ -5,8 +5,6 @@
 
 * Hlavně se naučíme se používat <sb>opakuj dokola</sb>
 * Příkazy <sb>jdi na [náhodná pozice v]</sb>, <sb>když narazíš na okraj, odraž se</sb>
-* Upravovat namalovaný kostým obrázku
-
 ---
 
 ### Co bychom už měli umět:
@@ -14,7 +12,7 @@
 * Orientovat se ve Scratch editoru
 * Používat spouštěcí události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 * Přidat zvuk
-* Změnit kostým
+* Měnit kostým
 
 ---
 
@@ -22,8 +20,9 @@ Cílem dnešního projektu je vyrobit hru, kde se po obrazovce sem a tam prohán
 
 
 <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/211925128/?autostart=false" frameborder="0" allowfullscreen></iframe>
+[Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/211925128/)
 
-<div class="poznamka" >
+<div class="poznamka" markdown="1">
 **Problém si rozdělímě na několik menších úkolů.** To je jedno ze základních informatických mouder. Pokud vám přijde problém moc složitý, rozdělte ho na několik drobných úkolů, které vyřešit už bude hračka.
 </div>
 
@@ -78,13 +77,11 @@ Otázka zní:"Jak naučit postavičku, aby běhala bez kláves sama?"
 Určitě bychom už uměli vytvořit program, který po spuštění posune postavu o několik kroků:
 ``` blocks
 po kliknutí na @greenFlag
-natoč se směrem (90 v)
 posuň se o (10) kroků
 ```
-Ale deset kroků nám nestačí, pro začátek bychom chtěli,aby postava došla alespoň ke kraji scény. Co takhle?
+Ale deset kroků nám nestačí, pro začátek bychom chtěli, aby postava došla alespoň ke kraji scény. Co takhle?
 ``` blocks
 po kliknutí na @greenFlag
-natoč se směrem (90 v)
 posuň se o (10) kroků
 posuň se o (10) kroků
 posuň se o (10) kroků
@@ -95,7 +92,7 @@ posuň se o (10) kroků
 
 Je to lepší, ale postava je jen o pár kroků dál a programátory už bolí ruka. 
 
-Aby programátoři nemuseli pořád dokola opisovat to samé, existuje v programovacích jazycích příkaz `opakuj`. Ve Scratchi vypadá takto <sb>opakuj dokola</sb> nebo třeba tak <sb>opakuj () krát</sb>. Najdeme je v záložce ![](/scratch/images/ovladani.png).    
+Abychom nemuseli pořád dokola opisovat to samé, existuje v programovacích jazycích příkaz `opakuj`. Ve Scratchi vypadá takto <sb>opakuj dokola</sb> nebo třeba tak <sb>opakuj () krát</sb>. Najdeme je v záložce ![](/scratch/images/ovladani.png).    
 Všechno, co napíšeme dovnitř do podkovy se bude opakovat. Pokud použijeme první příkaz, bude se opakovat do nekonečna, pokud druhý, vše uvnitř podkovy se zopakuje tolikrát, kolikrát nastavíme v argumentu příkazu.
 
 <div class="poznamka" markdown="1"><b>Poznámka:</b> Podrobnější nápady, jak trénovat s dětmi opakování s počítačem, ale hlavně bez najdete [zde](opakovani/opakovani.html)
@@ -104,7 +101,6 @@ Všechno, co napíšeme dovnitř do podkovy se bude opakovat. Pokud použijeme p
 Protože pohybovat se chceme po scéně stále, použijeme <sb>opakuj dokola</sb>:
 ``` blocks
 po kliknutí na @greenFlag
-natoč se směrem (90 v)
 opakuj dokola
 posuň se o (10) kroků
 ```
@@ -119,17 +115,18 @@ Výsledek:
 
 ``` blocks
 po kliknutí na @greenFlag
-natoč se směrem (90 v)
 skoč na pozici x: (0) y: (0)
 opakuj dokola
 posuň se o (10) kroků
 když narazíš na okraj, odraž se
-konec
 ```
+<div class="poznamka" markdown="1"><b>Úkoly:</b>
+:bulb: Spusťte program. Upravte ho tak, aby se postava, která běhá/létá po obrazovce nepohybovala hlavou dolů
+
+:bulb: Upravte si rychlost postavy podle vašich představ
+
+:bulb: Přidejte animaci postavy (mávání křídel, pohyb nohou...) Použijte k tomu příkaz <sb>další kostým</sb> a <sb>čekej()sekund</sb>
 
 
-
-
-
-
+</div>
 
