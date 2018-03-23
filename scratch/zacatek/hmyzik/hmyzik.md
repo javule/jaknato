@@ -11,7 +11,7 @@
 ### Co bychom už měli umět:
 
 * Orientovat se ve Scratch editoru
-* Používat spouštěcí události <sb>when this sprite clicked</sb>, <sb>when [ mezera v] key clicked</sb>, <sb>when @greenFlag clicked</sb> 
+* Používat spouštěcí události <sb>when this sprite clicked</sb>, <sb>when [ mezera v] key pressed</sb>, <sb>when @greenFlag clicked</sb> 
 * Přidat zvuk
 * Měnit kostým
 
@@ -127,7 +127,7 @@ if on edge, bounce
 
 :bulb: Upravte si rychlost postavy podle vašich představ
 
-:bulb: Přidejte animaci postavy (mávání křídel, pohyb nohou...) Použijte k tomu příkaz <sb>další kostým</sb> a <sb>wait()secs</sb>
+:bulb: Přidejte animaci postavy (mávání křídel, pohyb nohou...) Použijte k tomu příkaz <sb>next costume</sb> a <sb>wait()secs</sb>
 
 Pokud se nedaří, nakounkěte do [ukázkového programu](https://scratch.mit.edu/projects/211925128/)
 
