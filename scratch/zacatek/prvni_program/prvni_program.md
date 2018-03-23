@@ -6,7 +6,7 @@
 Tady byste měli začít, pokud o Scratchi netušíte vůbec nic
 
 * seznámíme se s jednotlivými částmi editoru
-* pozadí, postavy,scénáře 
+* pozadí, postavy, scénáře 
 * události <sb>po kliknutí na mě</sb>, <sb>po stisku klávesy [ mezera v]</sb>, <sb>po kliknutí na @greenFlag</sb> 
 * kostýmy, zvuky
 

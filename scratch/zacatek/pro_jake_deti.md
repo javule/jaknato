@@ -2,7 +2,7 @@
 
 Scratch je programovací jazyk vhodný podle mých zkušeností pro děti od druhé až třetí třídy základní školy. Horní hranice věku omezená není, stejně dobře poslouží i sedmákovi, který se bude chtít začít učit programovat.
 
-Pro prvňáky, i když čtenáře, bývá poměrně těžké se orientovat v nabídce příkazů a najít požadovaný příkaz ze seznamu jim dá velkou práci. Pro tyto děti doporučuji stránky [code.org](http://code.org/), kde se dají najít výukové programy i pro děti nečtenáře. Není od věci začít se stránkami [code.org](http://code.org/) i se staršími dětmi. Velmi osvědčené je i programování [LightBota](lightbot.com/flash.htm).
+Pro prvňáky, i když čtenáře, bývá poměrně těžké se orientovat v nabídce příkazů a najít požadovaný příkaz ze seznamu jim dá velkou práci. Pro tyto děti doporučuji stránky [code.org](http://code.org/), kde se dají najít výukové programy i pro děti nečtenáře. Není od věci začít se stránkami [code.org](http://code.org/) i se staršími dětmi. Velmi osvědčené je i programování [LightBota](http://lightbot.com/flash.htm).
 
 U předškoláků bych doporučovala zaměřit se spíš na činnosti, kde 
 * rozvíjí schopnosti třídit prvky podle různých kritérií
