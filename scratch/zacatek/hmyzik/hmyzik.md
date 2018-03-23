@@ -3,8 +3,9 @@
 ---
 ### Co se naučíme:
 
-* Hlavně se naučíme se používat <sb>opakuj dokola</sb>
+* Hlavně se naučíme používat <sb>opakuj dokola</sb>
 * Příkazy <sb>jdi na [náhodná pozice v]</sb>, <sb>když narazíš na okraj, odraž se</sb>
+
 ---
 
 ### Co bychom už měli umět:
@@ -120,7 +121,7 @@ opakuj dokola
 posuň se o (10) kroků
 když narazíš na okraj, odraž se
 ```
-<div class="poznamka" markdown="1"><b>Úkoly:</b>
+<div class="poznamka" markdown="1"><b>Úkoly:</b></br>
 :bulb: Spusťte program. Upravte ho tak, aby se postava, která běhá/létá po obrazovce nepohybovala hlavou dolů
 
 :bulb: Upravte si rychlost postavy podle vašich představ
