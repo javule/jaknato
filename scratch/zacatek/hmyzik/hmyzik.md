@@ -24,12 +24,12 @@ Cílem dnešního projektu je vyrobit hru, kde se po obrazovce sem a tam prohán
 [Program na stránkách scratch.mit.edu](https://scratch.mit.edu/projects/211925128/)
 
 <div class="poznamka" markdown="1">
-**Problém si rozdělímě na několik menších úkolů.** To je jedno ze základních informatických mouder. Pokud vám přijde problém moc složitý, rozdělte ho na několik drobných úkolů, které vyřešit už bude hračka.
+**Problém si rozdělímě na několik menších úkolů. To je jedno ze základních informatických mouder. Pokud vám přijde problém moc složitý, rozdělte ho na několik drobných úkolů, které vyřešit už bude hračka.**
 </div>
 
 Na scéně se má prohánět postavička, po kliknutí kvíknout a skočit jinam. To si přímo koleduje o rozdělení na dva úkoly:
-## 1. naučit postavičku prohánět se po scéně
-## 2. po kliknutí kvíknout a skočit jinam
+### 1. naučit postavičku prohánět se po scéně
+### 2. po kliknutí kvíknout a skočit jinam
 
 Jelikož druhý úkol vypadá jednoduše a nám už známě, začneme s ním.
 
@@ -37,9 +37,9 @@ Jelikož druhý úkol vypadá jednoduše a nám už známě, začneme s ním.
 
 Hloubavci by mohli namítnout, že i tenhle problém se dá dělit...
 
-Nejprve si vyberte postavičku, která se bude po scéně pohybovat. Mel by to být nějaký pták, motýl, moucha, zvíře.. Zkrátka něco, co může mávat křídly nebo packama a po zmáčknutí vydávat zvuky.
+Nejprve si vyberte postavičku, která se bude po scéně pohybovat. Měl by to být nějaký pták, motýl, moucha, zvíře.. Zkrátka něco, co může mávat křídly nebo packama a po zmáčknutí vydávat zvuky.
 
-Zopakujeme si, jak přidat postavě zvuk:
+Zopakujeme si, jak přidat postavě zvuk:    
 **Vybereme postavu, které chceme přidávat zvuk**, vlezeme do záložky *Zvuky* a pomocí ikon ![](pridat_zvuk.png) vyberme buď zvuk už hotový z knihovny, nebo si vytvoříme vlastní. 
 
 <div class="poznamka" markdown="1"><b>Poznámka:</b>
@@ -73,7 +73,7 @@ Program si teď můžete ozkoušet.
 
 ## Naučit postavičku běhat sem a tam po scéně
 
-Otázka zní:"Jak naučit postavičku, aby běhala bez kláves sama?"
+Otázka dne zní: "Jak naučit postavičku, aby běhala bez kláves sama?"
 
 Určitě bychom už uměli vytvořit program, který po spuštění posune postavu o několik kroků:
 ``` blocks
@@ -121,7 +121,8 @@ opakuj dokola
 posuň se o (10) kroků
 když narazíš na okraj, odraž se
 ```
-<div class="poznamka" markdown="1"><b>Úkoly:</b></br>
+<div class="poznamka" markdown="1"><b>Úkoly:</b>
+
 :bulb: Spusťte program. Upravte ho tak, aby se postava, která běhá/létá po obrazovce nepohybovala hlavou dolů
 
 :bulb: Upravte si rychlost postavy podle vašich představ
