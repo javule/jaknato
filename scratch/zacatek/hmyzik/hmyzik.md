@@ -124,7 +124,7 @@ skoč na pozici x: (0) y: (0)
 opakuj dokola
 posuň se o (10) kroků
 když narazíš na okraj, odraž se
-end
+konec
 ```
 
 
