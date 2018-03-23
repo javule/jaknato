@@ -20,7 +20,8 @@ Návod pro úplné začátečníky, jak se orientovat ve Scratchi. Výsledkem je
 !!! Tady budou prográmky - hry a projektíky bez opakování, bez podmínek
 !!! Natrénovat souřadnicový systém a převlékání kostýmů
 
-#### [Hmyzík](/scratch/zacatek/hmyzik/hmyzik.html) 
+#### [Hmyzík](/scratch/zacatek/hmyzik/hmyzik.html)    
+dfdf
 
 !!! Tady budou programky s uplně jednoduchým opakováním
 
