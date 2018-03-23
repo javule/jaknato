@@ -27,6 +27,10 @@ Návod pro úplné začátečníky, jak se orientovat ve Scratchi. Výsledkem je
 * 
 *
 
+#### [Krtek](/scratch/zacatek/krtek/krtek.html)
+Animace krtka, jak řádí v trávníku. Nechává za sebou krtince. Použití bloku. Bez opakování.
+
+--- 
 
 #### [Hmyzík](/scratch/zacatek/hmyzik/hmyzik.html)
 Postavička létá tam a zpět po scéně, po kliknutí uskakuje a vydává zvuky.
