@@ -16,5 +16,27 @@
               <br>Zkoušejte spojovat příkazy za sebe a dvojklikem spouštět.</strong></p>
               </div>
 
+              <pre><code class="language-blocks">when @greenFlag clicked
+                ask [Jak se jmenuješ] and wait
+                set [jmeno_hrace v] to(odpověď)
+                say(jmeno_hrace)
+                </code></pre>
+
+    <!-- Scratchblocks-->
+    <script src="https://scratchblocks.github.io/js/scratchblocks-v3.1-min.js"></script>
+    <script src="https://scratchblocks.github.io/js/translations-all-v3.1-min.js" charset="utf8"></script>
+    <script>
+                scratchblocks.renderMatching('.language-blocks', {
+                render: (doc, cb) => {
+                    // Translate immediately before rendering
+                    doc.translate(scratchblocks.allLanguages['cs'])
+                    doc.render(cb)
+                }
+            })              
+            scratchblocks.renderMatching("sb", {languages: ['cs'], inline: true});
+  </script>    
+
+
+
 </body>
 </html>
