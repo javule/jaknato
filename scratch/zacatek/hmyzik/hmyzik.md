@@ -28,8 +28,8 @@ Cílem dnešního projektu je vyrobit hru, kde se po obrazovce sem a tam prohán
 </div>
 
 Na scéně se má prohánět postavička, po kliknutí kvíknout a skočit jinam. To si přímo koleduje o rozdělení na dva úkoly:
-1. naučit postavičku prohánět se po scéně
-2. po kliknutí kvíknout a skočit jinam
+## 1. naučit postavičku prohánět se po scéně
+## 2. po kliknutí kvíknout a skočit jinam
 
 Jelikož druhý úkol vypadá jednoduše a nám už známě, začneme s ním.
 
@@ -128,6 +128,7 @@ když narazíš na okraj, odraž se
 
 :bulb: Přidejte animaci postavy (mávání křídel, pohyb nohou...) Použijte k tomu příkaz <sb>další kostým</sb> a <sb>čekej()sekund</sb>
 
+Pokud se nedaří, nakounkěte do [ukázkového programu](https://scratch.mit.edu/projects/211925128/)
 
 </div>
 
