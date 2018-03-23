@@ -133,3 +133,9 @@ Pokud se nedaří, nakounkěte do [ukázkového programu](https://scratch.mit.ed
 
 </div>
 
+
+<div class="poznamka" markdown="1"><b>Nápady pro pokročilé:</b>
+
+* Nechat postavu skákat na náhodné místo už ve chvíli, kdy se jí dotkne ukazatel myši. Ještě před kliknutím na ni. :thumbsup:
+* Počítání zásahů postavy myší
+</div>
