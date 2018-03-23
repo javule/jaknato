@@ -47,7 +47,7 @@ Při nahrávání vlastního zvuku bude pravděpodobně vhodné zvuk oříznout 
 
 ![](uprav_zvuk.png)
 
-Zkuste si i jiné úpravy a efekty. Tu část zvuku, kterou chcete upravovat, musíte nejprve označit mýší.
+Zkuste si i jiné úpravy a efekty. Tu část zvuku, kterou chcete upravovat, musíte nejprve označit myší.
 
 **Zvuk, který jste vytvořili si smysluplně pojmenujte tak, ať víte o který zvuk jde. Předejdete tak mnoha chybám a zdržením.**
 
@@ -60,7 +60,7 @@ Zvuk přidaný postavě už můžeme použít v programu:  <sb>přehraj zvuk [ch
 
 Událost která spustí kód bude <sb>po kliknutí na mě </sb>.
 
-Zbývá už jen skákání na náhodné místo na scéně. Na to má Scratch už pro nás připravený příkaz. Je ale důmyslně schovaný očím nezasveceného pozorovatele. Najdete ho v záložce ![](/scratch/images/pohyb.png), ale pod příkazem <sb>jdi na [ukazatel myši v]</sb>. Vyberte tento příkaz, jen ho pomocí čerého trojúhelníčku vpravo přeměňte na <sb>jdi na [náhodná pozice v]</sb>. 
+Zbývá už jen skákání na náhodné místo na scéně. Na to má Scratch už pro nás připravený příkaz. Je ale důmyslně schovaný očím nezasvěceného pozorovatele. Najdete ho v záložce ![](/scratch/images/pohyb.png), ale pod příkazem <sb>jdi na [ukazatel myši v]</sb>. Vyberte tento příkaz, jen ho pomocí černého trojúhelníčku vpravo přeměňte na <sb>jdi na [náhodná pozice v]</sb>. 
 
 Máme vše co potřebujeme a výsledek bude vypadat takto:
 ``` blocks
