@@ -53,7 +53,24 @@
     <!-- Scratchblocks-->
     <script src="https://scratchblocks.github.io/js/scratchblocks-v3.1-min.js"></script>
     <script src="https://scratchblocks.github.io/js/translations-all-v3.1-min.js" charset="utf8"></script>
-    <script>scratchblocks.renderMatching('.language-blocks', {languages: ['cs']});</script>
-    <script>scratchblocks.renderMatching("sb", {languages: ['cs'], inline: true});</script>    
+    <script>
+                // std. blocks
+                scratchblocks.renderMatching('.language-blocks', {
+                render: (doc, cb) => {
+                    // Translate immediately before rendering
+                    doc.translate(scratchblocks.allLanguages['cs'])
+                    doc.render(cb)
+                }
+            })   
+            // inline blocks  
+            scratchblocks.renderMatching("sb", {
+              render: (doc, cb) => {
+                    // Translate immediately before rendering
+                    doc.translate(scratchblocks.allLanguages['cs'])
+                    doc.render(cb)
+                },
+              inline: true
+              });
+  </script> 
 </body>
 </html>
