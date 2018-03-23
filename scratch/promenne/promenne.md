@@ -57,9 +57,9 @@ nebo např.:
 when @greenFlag clicked
 ask [Jak se jmenuješ?] and wait
 set [jmeno_hrace v] to(odpověď)
-ask (spoj(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) and wait
+ask (join(jmeno_hrace )[, to je pěkné jméno. A jak ti mám říkat?]) and wait
 set [osloveni v] to(odpověď)
-say(spoj[Ahoj ](osloveni))
+say(join[Ahoj ](osloveni))
 ```
 Pokud budeme program spouštět opakovaně, jistě si všimneme, že po startu programu zůstává v proměnné nastavena její minulá hodnota:
 
