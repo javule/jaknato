@@ -31,7 +31,7 @@ Ve Scratchi máme pro proměnné a práci s nimi oranžovou záložku ![](data.p
 ![](prikazy.png)
 
 ## Vzhled proměnných
-Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů <sb>ukaž proměnnou [ v]</sb> a <sb>skryj proměnnou[ v]</sb>.
+Zobrazování/skrývání proměnné na scéně se dělá ručně pomocí checkboxu u proměnné, programově pak pomocí příkazů <sb>show variable [ v]</sb> a <sb>hide variable[ v]</sb>.
 
 Proměnnou lze dodatečně přejmenovat. Jméno se změní na všech místech, kde je proměnná použita.
 
@@ -109,9 +109,9 @@ set [body v] to (0)
 >   
 
 ## Zkušenosti s výukou
-Doporučuji ujistit se, že děti vnímají rozdíl mezi  <sb>set [ v] to []</sb> a <sb>změň [ v] o ()</sb>. 
+Doporučuji ujistit se, že děti vnímají rozdíl mezi  <sb>set [ v] to []</sb> a <sb>change [ v] by ()</sb>. 
 
-Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. <sb>změň[pocet_zivotu] o (-1)</sb>
+Zároveň je vhodné upozornit, že pokud chceme zmenšovat  hodnotu proměnné (např. ubírání životů), je třeba do    argumentu funkce dát záporné číslo. <sb>change[pocet_zivotu] by (-1)</sb>
 
 ## Proměnné `Pro všechny postavy` a `Jen pro tuto postavu`
 Rozlišujeme, zda proměnná, kterou chceme vytvořit, má smysl pro program jako celek, nebo zda se jedná o vlastnost nebo informaci týkající se pouze některé z postav.
